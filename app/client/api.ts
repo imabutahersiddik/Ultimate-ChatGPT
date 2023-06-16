@@ -112,7 +112,7 @@ export class ClientApi {
     const resJson = await res.json();
     console.log("[Share]", resJson);
     if (resJson.id) {
-      return `https://shareg.pt/${resJson.id}`;
+      return `https://kiask.xyz/${resJson.id}`;
     }
   }
 }
