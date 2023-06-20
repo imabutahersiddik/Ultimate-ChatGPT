@@ -1,183 +1,228 @@
 import { SubmitKey } from "../store/config";
-import type { LocaleType } from "./index";
+import { RequiredLocaleType } from "./index";
 
-const cs: LocaleType = {
-  WIP: "V přípravě...",
+const cs: RequiredLocaleType = {
+  WIP: "Brzy...",
   Error: {
     Unauthorized:
-      "Neoprávněný přístup, zadejte přístupový kód na stránce nastavení.",
+      "Neautorizovaný přístup, prosím zadejte přístupový kód na stránce [auth](/#/auth).",
+  },
+  Auth: {
+    Title: "Potřebujete přístupový kód",
+    Tips: "Prosím zadejte přístupový kód níže",
+    Input: "přístupový kód",
+    Confirm: "Potvrdit",
+    Later: "Později",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} zpráv`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} zpráv s ChatGPT`,
+    SubTitle: (count: number) => `${count} zpráv s The ChatGPT`,
     Actions: {
       ChatList: "Přejít na seznam chatů",
-      CompressedHistory: "Pokyn z komprimované paměti historie",
+      CompressedHistory: "Komprimovaná historie paměťového podnětu",
       Export: "Exportovat všechny zprávy jako Markdown",
       Copy: "Kopírovat",
       Stop: "Zastavit",
-      Retry: "Zopakovat",
+      Retry: "Zkusit znovu",
       Delete: "Smazat",
     },
+    InputActions: {
+      Stop: "Zastavit",
+      ToBottom: "K nejnovějšímu",
+      Theme: {
+        auto: "Automatický",
+        light: "Světlé téma",
+        dark: "Tmavé téma",
+      },
+      Prompt: "Podněty",
+      Masks: "Masky",
+      Clear: "Vymazat kontext",
+      Settings: "Nastavení",
+    },
     Rename: "Přejmenovat chat",
-    Typing: "Píše...",
+    Typing: "Psaní...",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} pro odeslání`;
       if (submitKey === String(SubmitKey.Enter)) {
-        inputHints += ", Shift + Enter pro řádkování";
+        inputHints += ", Shift + Enter pro zalomení";
       }
-      return inputHints + ", / pro vyhledávání pokynů";
+      return inputHints + ", / pro vyhledávání podnětů";
     },
     Send: "Odeslat",
     Config: {
-      Reset: "Obnovit výchozí",
-      SaveAs: "Uložit jako Masku",
+      Reset: "Obnovit na výchozí hodnoty",
+      SaveAs: "Uložit jako masku",
     },
   },
   Export: {
-    Title: "Všechny zprávy",
+    Title: "Exportovat zprávy",
     Copy: "Kopírovat vše",
     Download: "Stáhnout",
     MessageFromYou: "Zpráva od vás",
-    MessageFromChatGPT: "Zpráva z ChatGPT",
+    MessageFromChatGPT: "Zpráva od The ChatGPT",
+    Share: "Sdílet na KiAsk Share",
+    Format: {
+      Title: "Formát exportu",
+      SubTitle: "Markdown nebo PNG obrázek",
+    },
+    IncludeContext: {
+      Title: "Zahrnout kontext",
+      SubTitle: "Exportovat kontextové podněty v masce nebo ne",
+    },
+    Steps: {
+      Select: "Vybrat",
+      Preview: "Náhled",
+    },
+  },
+  Select: {
+    Search: "Vyhledávání",
+    All: "Vybrat vše",
+    Latest: "Vybrat nejnovější",
+    Clear: "Vymazat",
   },
   Memory: {
-    Title: "Pokyn z paměti",
+    Title: "Paměťový podnět",
     EmptyContent: "Zatím nic.",
     Send: "Odeslat paměť",
     Copy: "Kopírovat paměť",
     Reset: "Obnovit relaci",
     ResetConfirm:
-      "Resetováním se vymaže historie aktuálních konverzací i paměť historie pokynů. Opravdu chcete provést obnovu?",
+      "Obnovením se vymaže aktuální historie konverzace a historická paměť. Opravdu chcete obnovit?",
   },
   Home: {
     NewChat: "Nový chat",
-    DeleteChat: "Potvrzujete smazání vybrané konverzace?",
+    DeleteChat: "Potvrdit smazání vybrané konverzace?",
     DeleteToast: "Chat smazán",
-    Revert: "Zvrátit",
+    Revert: "Vrátit",
   },
   Settings: {
     Title: "Nastavení",
     SubTitle: "Všechna nastavení",
     Actions: {
       ClearAll: "Vymazat všechna data",
-      ResetAll: "Obnovit veškeré nastavení",
+      ResetAll: "Obnovit všechna nastavení",
       Close: "Zavřít",
-      ConfirmResetAll: "Jste si jisti, že chcete obnovit všechna nastavení?",
-      ConfirmClearAll: "Jste si jisti, že chcete smazat všechna data?",
+      ConfirmResetAll: "Opravdu chcete obnovit všechny konfigurace?",
+      ConfirmClearAll: "Opravdu chcete vymazat všechna data?",
     },
     Lang: {
-      Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
+      Name: "Jazyk", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
       All: "Všechny jazyky",
     },
     Avatar: "Avatar",
     FontSize: {
       Title: "Velikost písma",
-      SubTitle: "Nastavení velikosti písma obsahu chatu",
+      SubTitle: "Nastavení velikosti písma v chatu",
     },
     Update: {
       Version: (x: string) => `Verze: ${x}`,
-      IsLatest: "Aktuální verze",
-      CheckUpdate: "Zkontrolovat aktualizace",
+      IsLatest: "Nejnovější verze",
+      CheckUpdate: "Zkontrolovat aktualizaci",
       IsChecking: "Kontrola aktualizace...",
-      FoundUpdate: (x: string) => `Nalezena nová verze: ${x}`,
+      FoundUpdate: (x: string) => `Byla nalezena nová verze: ${x}`,
       GoToUpdate: "Aktualizovat",
     },
     SendKey: "Odeslat klíč",
     Theme: "Téma",
-    TightBorder: "Těsné ohraničení",
+    TightBorder: "Těsná hranice",
     SendPreviewBubble: {
-      Title: "Odesílat chatovací bublinu s náhledem",
-      SubTitle: "Zobrazit v náhledu bubliny",
+      Title: "Odeslat náhledovou bublinu",
+      SubTitle: "Náhled markdownu v bublině",
     },
     Mask: {
-      Title: "Úvodní obrazovka Masek",
-      SubTitle: "Před zahájením nového chatu zobrazte úvodní obrazovku Masek",
+      Title: "Úvodní obrazovka masky",
+      SubTitle: "Zobrazit úvodní obrazovku masky před zahájením nového chatu",
     },
     Prompt: {
       Disable: {
-        Title: "Deaktivovat automatické dokončování",
+        Title: "Vypnout automatické dokončování",
         SubTitle: "Zadejte / pro spuštění automatického dokončování",
       },
-      List: "Seznam pokynů",
+      List: "Seznam podnětů",
       ListCount: (builtin: number, custom: number) =>
-        `${builtin} vestavěných, ${custom} uživatelských`,
+        `${builtin} vestavěných, ${custom} uživatelem definovaných`,
       Edit: "Upravit",
       Modal: {
-        Title: "Seznam pokynů",
-        Add: "Přidat pokyn",
-        Search: "Hledat pokyny",
+        Title: "Seznam podnětů",
+        Add: "Přidat jeden",
+        Search: "Hledat podněty",
       },
       EditModal: {
-        Title: "Editovat pokyn",
+        Title: "Upravit podnět",
       },
     },
     HistoryCount: {
       Title: "Počet připojených zpráv",
-      SubTitle: "Počet odeslaných připojených zpráv na žádost",
+      SubTitle: "Počet odeslaných zpráv připojených na požádání",
     },
     CompressThreshold: {
-      Title: "Práh pro kompresi historie",
+      Title: "Práh komprese historie",
       SubTitle:
-        "Komprese proběhne, pokud délka nekomprimovaných zpráv přesáhne tuto hodnotu",
+        "Bude komprimovat, pokud délka nepřekomprimovaných zpráv přesáhne hodnotu",
     },
     Token: {
       Title: "API klíč",
-      SubTitle: "Použitím klíče ignorujete omezení přístupového kódu",
-      Placeholder: "Klíč API OpenAI",
+      SubTitle: "Použijte svůj klíč pro ignorování omezení přístupového kódu",
+      Placeholder: "OpenAI API klíč",
     },
     Usage: {
       Title: "Stav účtu",
       SubTitle(used: any, total: any) {
-        return `Použito tento měsíc $${used}, předplaceno $${total}`;
+        return `Tento měsíc použito $${used}, předplatné $${total}`;
       },
-      IsChecking: "Kontroluji...",
+      IsChecking: "Kontrola...",
       Check: "Zkontrolovat",
-      NoAccess: "Pro kontrolu zůstatku zadejte klíč API",
+      NoAccess: "Zadejte API klíč pro zjištění zůstatku",
     },
     AccessCode: {
       Title: "Přístupový kód",
-      SubTitle: "Kontrola přístupu povolena",
+      SubTitle: "Povolené řízení přístupu",
       Placeholder: "Potřebujete přístupový kód",
+    },
+    Endpoint: {
+      Title: "Koncový bod",
+      SubTitle: "Vlastní koncový bod musí začínat http(s)://",
     },
     Model: "Model",
     Temperature: {
       Title: "Teplota",
-      SubTitle: "Větší hodnota činí výstup náhodnějším",
+      SubTitle: "Vyšší hodnota způsobuje více náhodný výstup",
     },
     MaxTokens: {
-      Title: "Max. počet tokenů",
-      SubTitle: "Maximální délka vstupního tokenu a generovaných tokenů",
+      Title: "Maximální počet tokenů",
+      SubTitle: "Maximální délka vstupních tokenů a generovaných tokenů",
     },
     PresencePenalty: {
-      Title: "Přítomnostní korekce",
-      SubTitle: "Větší hodnota zvyšuje pravděpodobnost nových témat.",
+      Title: "Trest za přítomnost",
+      SubTitle:
+        "Vyšší hodnota zvyšuje pravděpodobnost mluvení o nových tématech",
     },
   },
   Store: {
-    DefaultTopic: "Nová konverzace",
-    BotHello: "Ahoj! Jak mohu dnes pomoci?",
-    Error: "Něco se pokazilo, zkuste to prosím později.",
+    DefaultTopic: "Nový rozhovor",
+    BotHello: "Ahoj! Jak vám mohu pomoci dnes?",
+    Error: "Něco se pokazilo, zkuste to prosím později znovu.",
     Prompt: {
       History: (content: string) =>
-        "Toto je shrnutí historie chatu mezi umělou inteligencí a uživatelem v podobě rekapitulace: " +
-        content,
+        "Toto je shrnutí chatové historie jako rekapitulace: " + content,
       Topic:
-        "Vytvořte prosím název o čtyřech až pěti slovech vystihující průběh našeho rozhovoru bez jakýchkoli úvodních slov, interpunkčních znamének, uvozovek, teček, symbolů nebo dalšího textu. Odstraňte uvozovky.",
+        "Prosím vytvořte čtyř až pěti slový titul shrnující naši konverzaci bez úvodu, interpunkce, uvozovek, teček, symbolů nebo dalšího textu. Odstraňte uzavírací uvozovky.",
       Summarize:
-        "Krátce shrň naši diskusi v rozsahu do 200 slov a použij ji jako podnět pro budoucí kontext.",
+        "Stručně shrňte diskusi do 200 slov nebo méně, které lze použít jako podnět pro budoucí kontext.",
     },
   },
   Copy: {
     Success: "Zkopírováno do schránky",
-    Failed: "Kopírování selhalo, prosím, povolte přístup ke schránce",
+    Failed: "Kopírování se nezdařilo, prosím povolte přístup k schránce",
   },
   Context: {
-    Toast: (x: any) => `Použití ${x} kontextových pokynů`,
-    Edit: "Kontextové a paměťové pokyny",
-    Add: "Přidat pokyn",
+    Toast: (x: any) => `S ${x} kontextovými podněty`,
+    Edit: "Kontextové a paměťové podněty",
+    Add: "Přidat podnět",
+    Clear: "Vymazat kontext",
+    Revert: "Vrátit",
   },
   Plugin: {
     Name: "Plugin",
@@ -185,13 +230,13 @@ const cs: LocaleType = {
   Mask: {
     Name: "Maska",
     Page: {
-      Title: "Šablona pokynu",
-      SubTitle: (count: number) => `${count} šablon pokynů`,
-      Search: "Hledat v šablonách",
+      Title: "Šablona podnětu",
+      SubTitle: (count: number) => `${count} šablon podnětu`,
+      Search: "Vyhledávání šablon",
       Create: "Vytvořit",
     },
     Item: {
-      Info: (count: number) => `${count} pokynů`,
+      Info: (count: number) => `${count} podnětů`,
       Chat: "Chat",
       View: "Zobrazit",
       Edit: "Upravit",
@@ -200,23 +245,32 @@ const cs: LocaleType = {
     },
     EditModal: {
       Title: (readonly: boolean) =>
-        `Editovat šablonu pokynu ${readonly ? "(pouze ke čtení)" : ""}`,
+        `Upravit šablonu podnětu ${readonly ? "(jen pro čtení)" : ""}`,
       Download: "Stáhnout",
-      Clone: "Duplikovat",
+      Clone: "Klonovat",
     },
     Config: {
-      Avatar: "Avatar Bota",
-      Name: "Jméno Bota",
+      Avatar: "Avatar robota",
+      Name: "Jméno robota",
+      Sync: {
+        Title: "Použít globální konfiguraci",
+        SubTitle: "Použít globální konfiguraci v tomto chatu",
+        Confirm: "Potvrdit přepsání vlastní konfigurace globální konfigurací?",
+      },
+      HideContext: {
+        Title: "Skrýt kontextové podněty",
+        SubTitle: "Nezobrazovat kontextové podněty v chatu",
+      },
     },
   },
   NewChat: {
-    Return: "Zpět",
-    Skip: "Přeskočit",
-    Title: "Vyberte Masku",
-    SubTitle: "Chatovat s duší za Maskou",
+    Return: "Vrátit",
+    Skip: "Začít",
+    Title: "Vyberte masku",
+    SubTitle: "Chatujte s duší za maskou",
     More: "Najít více",
-    NotShow: "Nezobrazovat znovu",
-    ConfirmNoShow: "Potvrdit zakázání？Můžete jej povolit později v nastavení.",
+    NotShow: "Už nikdy nezobrazovat",
+    ConfirmNoShow: "Potvrdit zakázání? Můžete jej později povolit v nastavení.",
   },
 
   UI: {

@@ -87,7 +87,7 @@ export class ClientApi {
         {
           from: "human",
           value:
-            "Share from [ChatGPT Next Web]: https://github.com/Yidadaa/ChatGPT-Next-Web",
+            "Share from [The Ultimate ChatGPT]: https://chatgpt.kiask.xyz",
         },
       ]);
     // 敬告二开开发者们，为了开源大模型的发展，请不要修改上述消息，此消息用于后续数据清洗使用
@@ -95,8 +95,8 @@ export class ClientApi {
 
     console.log("[Share]", msgs);
     const clientConfig = getClientConfig();
-    const proxyUrl = "/sharegpt";
-    const rawUrl = "https://sharegpt.com/api/conversations";
+    const proxyUrl = "/kiaskshare";
+    const rawUrl = "https://www.kiask.xyz/api/conversations";
     const shareUrl = clientConfig?.isApp ? rawUrl : proxyUrl;
     const res = await fetch(shareUrl, {
       body: JSON.stringify({
@@ -112,7 +112,7 @@ export class ClientApi {
     const resJson = await res.json();
     console.log("[Share]", resJson);
     if (resJson.id) {
-      return `https://kiask.xyz/${resJson.id}`;
+      return `https://www.kiask.xyz/${resJson.id}`;
     }
   }
 }

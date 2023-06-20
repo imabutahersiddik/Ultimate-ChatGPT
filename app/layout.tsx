@@ -5,8 +5,8 @@ import "./styles/highlight.scss";
 import { getClientConfig } from "./config/client";
 
 export const metadata = {
-  title: "ChatGPT Next Web",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "The Ultimate ChatGPT",
+  description: "Experience the Ultimate ChatGPT Chat Bot: Powered by GPT-3.5 Turbo AI, our cutting-edge virtual assistant revolutionizes your online interactions. Engage in captivating conversations, get instant answers, and access a wealth of knowledge. With unparalleled intelligence and lightning-fast response times, our Chat Bot is your go-to source for expert advice, innovative ideas, and friendly banter. Don't miss out on this incredible opportunity to explore the future of AI. Click now to unlock endless possibilities with our advanced ChatGPT Chat Bot!",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -17,7 +17,7 @@ export const metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT Next Web",
+    title: "The Ultimate ChatGPT - Unlock the ultimate features of ChatGPT",
     statusBarStyle: "default",
   },
 };

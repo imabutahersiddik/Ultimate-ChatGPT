@@ -18,7 +18,7 @@ const en: RequiredLocaleType = {
     ChatItemCount: (count: number) => `${count} messages`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} messages with ChatGPT`,
+    SubTitle: (count: number) => `${count} messages with The ChatGPT`,
     Actions: {
       ChatList: "Go To Chat List",
       CompressedHistory: "Compressed History Memory Prompt",
@@ -61,8 +61,8 @@ const en: RequiredLocaleType = {
     Copy: "Copy All",
     Download: "Download",
     MessageFromYou: "Message From You",
-    MessageFromChatGPT: "Message From ChatGPT",
-    Share: "Share to ShareGPT",
+    MessageFromChatGPT: "Message From The ChatGPT",
+    Share: "Share to KiAsk Share",
     Format: {
       Title: "Export Format",
       SubTitle: "Markdown or PNG Image",
