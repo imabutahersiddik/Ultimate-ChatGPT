@@ -1,5 +1,4 @@
 import { SubmitKey } from "../store/config";
-import { RequiredLocaleType } from "./index";
 
 const cn = {
   WIP: "该功能仍在开发中……",
