@@ -28,7 +28,6 @@ import EE from "./ee";
 import EG from "./eg";
 import EH from "./eh";
 import ER from "./er";
-import ES from "./es";
 import ET from "./et";
 import FI from "./fi";
 import FJ from "./fj";
@@ -201,7 +200,6 @@ export const AllLangs = [
   "cn",
   "tw",
   "fr",
-  "es",
   "it",
   "tr",
   "jp",
@@ -426,7 +424,6 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   eg: "العربية",
   eh: "Hassaniya Arabic",
   er: "Tigrinya",
-  es: "Español",
   et: "Amharic",
   fi: "Suomi",
   fj: "Fijian",
@@ -672,7 +669,6 @@ const targetLang = {
   eg: EG,
   eh: EH,
   er: ER,
-  es: ES,
   et: ET,
   fi: FI,
   fj: FJ,
