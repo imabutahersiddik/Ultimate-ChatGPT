@@ -112,7 +112,7 @@ export class ClientApi {
     const resJson = await res.json();
     console.log("[Share]", resJson);
     if (resJson.id) {
-      return `https://www.kiask.xyz/${resJson.id}`;
+      return `https://www.kiask.xyz/c/${resJson.id}`;
     }
   }
 }
