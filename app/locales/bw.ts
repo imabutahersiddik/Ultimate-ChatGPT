@@ -1,7 +1,7 @@
 import { SubmitKey } from "../store/config";
 import { RequiredLocaleType } from "./index";
 
-const tn: RequiredLocaleType = {
+const bw: RequiredLocaleType = {
   WIP: "O tla itshwara...",
   Error: {
     Unauthorized:

@@ -1,7 +1,7 @@
 import { SubmitKey } from "../store/config";
 import { RequiredLocaleType } from "./index";
 
-const en: RequiredLocaleType = {
+const in: RequiredLocaleType = {
   WIP: "जल्द आ रहा है...",
   Error: {
     Unauthorized:
@@ -282,4 +282,4 @@ const en: RequiredLocaleType = {
   },
 };
 
-export default hn;
+export default in;

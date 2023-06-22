@@ -1,4 +1,7 @@
-const ha: RequiredLocaleType = {
+import { SubmitKey } from "../store/config";
+import { RequiredLocaleType } from "./index";
+
+const cm: RequiredLocaleType = {
   WIP: "Za Ta De...",
   Error: {
     Unauthorized:

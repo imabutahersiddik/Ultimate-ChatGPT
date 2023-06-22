@@ -1,4 +1,7 @@
-const lu: RequiredLocaleType = {
+import { SubmitKey } from "../store/config";
+import { RequiredLocaleType } from "./index";
+
+const cd: RequiredLocaleType = {
   WIP: "Yeka Petee...",
   Error: {
     Unauthorized:

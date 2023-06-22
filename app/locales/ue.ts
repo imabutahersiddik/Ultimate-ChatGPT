@@ -1,7 +1,7 @@
 import { SubmitKey } from "../store/config";
 import { RequiredLocaleType } from "./index";
 
-const eu: RequiredLocaleType = {
+const ue: RequiredLocaleType = {
   WIP: "Laster...",
   Error: {
     Unauthorized:
@@ -282,4 +282,4 @@ const eu: RequiredLocaleType = {
   },
 };
 
-export default eu;
+export default ue;

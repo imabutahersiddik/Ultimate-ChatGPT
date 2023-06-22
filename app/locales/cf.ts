@@ -1,4 +1,7 @@
-const sg: RequiredLocaleType = {
+import { SubmitKey } from "../store/config";
+import { RequiredLocaleType } from "./index";
+
+const cf: RequiredLocaleType = {
   WIP: "Koyamba ti na sona...",
   Error: {
     Unauthorized:

@@ -1,4 +1,7 @@
-const en = {
+import { SubmitKey } from "../store/config";
+import { RequiredLocaleType } from "./index";
+
+const ci = {
   WIP: "Ndanndite...",
   Error: {
     Unauthorized:
