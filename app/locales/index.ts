@@ -1,4 +1,5 @@
 import CN from "./cn";
+import EN from "./af";
 import EN from "./en";
 import TW from "./tw";
 import FR from "./fr";
@@ -189,6 +190,7 @@ import { merge } from "../utils/merge";
 export type { LocaleType, RequiredLocaleType } from "./cn";
 
 export const AllLangs = [
+"af"
 "en",
 "cn",
 "tw",
@@ -380,6 +382,7 @@ export type Lang = (typeof AllLangs)[number];
 
 export const ALL_LANG_OPTIONS: Record<Lang, string> = {
 
+af: "Afrikans",
 cn: "简体中文",
 en: "English",
 tw: "繁體中文",
@@ -615,6 +618,7 @@ export function changeLang(lang: Lang) {
 
 const fallbackLang = EN;
 const targetLang = {
+af: AF,
 en: EN,
 cn: CN,
 tw: TW,
