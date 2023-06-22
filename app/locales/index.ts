@@ -32,7 +32,6 @@ import ET from "./et";
 import FI from "./fi";
 import FJ from "./fj";
 import FM from "./fm";
-import FR from "./fr";
 import GA from "./ga";
 import GB from "./gb";
 import GH from "./gh";
@@ -231,7 +230,6 @@ export const AllLangs = [
   "fi",
   "fj",
   "fm",
-  "fr",
   "ga",
   "gb",
   "gh",
@@ -428,7 +426,6 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   fi: "Suomi",
   fj: "Fijian",
   fm: "English",
-  fr: "Français",
   ga: "Fula",
   gb: "English",
   gh: "Akan",
@@ -642,7 +639,6 @@ const targetLang = {
   en: EN,
   cn: CN,
   tw: TW,
-  fr: FR,
   es: ES,
   it: IT,
   tr: TR,
