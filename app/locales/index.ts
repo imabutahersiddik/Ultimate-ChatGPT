@@ -21,7 +21,6 @@ import CH from "./ch";
 import CI from "./ci";
 import CM from "./cm";
 import CG from "./cg";
-import DE from "./de";
 import DK from "./dk";
 import DZ from "./dz";
 import EC from "./ec";
