@@ -37,7 +37,7 @@ const en: RequiredLocaleType = {
         dark: "Dark Theme",
       },
       Prompt: "Prompts",
-      Masks: "Masks",
+      Masks: "Prompts",
       Clear: "Clear Context",
       Settings: "Settings",
     },
@@ -53,7 +53,7 @@ const en: RequiredLocaleType = {
     Send: "Send",
     Config: {
       Reset: "Reset to Default",
-      SaveAs: "Save as Mask",
+      SaveAs: "Save as Prompt",
     },
   },
   Export: {
@@ -69,7 +69,7 @@ const en: RequiredLocaleType = {
     },
     IncludeContext: {
       Title: "Including Context",
-      SubTitle: "Export context prompts in mask or not",
+      SubTitle: "Export context prompts",
     },
     Steps: {
       Select: "Select",
@@ -132,8 +132,8 @@ const en: RequiredLocaleType = {
       SubTitle: "Preview markdown in bubble",
     },
     Mask: {
-      Title: "Mask Splash Screen",
-      SubTitle: "Show a mask splash screen before starting new chat",
+      Title: "Prompt Splash Screen",
+      SubTitle: "Show a prompt splash screen before starting new chat",
     },
     Prompt: {
       Disable: {
@@ -228,7 +228,7 @@ const en: RequiredLocaleType = {
     Name: "Plugin",
   },
   Mask: {
-    Name: "Mask",
+    Name: "Prompt",
     Page: {
       Title: "Prompt Template",
       SubTitle: (count: number) => `${count} prompt templates`,
@@ -266,8 +266,8 @@ const en: RequiredLocaleType = {
   NewChat: {
     Return: "Return",
     Skip: "Just Start",
-    Title: "Pick a Mask",
-    SubTitle: "Chat with the Soul behind the Mask",
+    Title: "Pick a Prompt",
+    SubTitle: "Chat with the Soul behind the Prompt",
     More: "Find More",
     NotShow: "Never Show Again",
     ConfirmNoShow: "Confirm to disable？You can enable it in settings later.",
