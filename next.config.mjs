@@ -53,8 +53,8 @@ if (mode !== "export") {
         destination: "https://fonts.googleapis.com/:path*",
       },
       {
-        source: "/sharegpt",
-        destination: "https://sharegpt.com/api/conversations",
+        source: "/kiaskshare",
+        destination: "https://www.kiask.xyz/api/conversations",
       },
     ];
 

@@ -9,7 +9,7 @@
 - Central African Republic: [Sango](./README/LANGUAGES/README_CF.md), [French](./README/LANGUAGES/README_FR.md)
 - Democratic Republic of Congo: [Luba-Katanga](./README/LANGUAGES/README_CD.md), [French](./README/LANGUAGES/README_FR.md), [Swahili](./README/LANGUAGES/README_KE.md)
 - Switzerland: [Romansh](./README/LANGUAGES/README_CH.md), [German](./README/LANGUAGES/README_DE.md), [Italian](./README/LANGUAGES/README_IT.md), [French](./README/LANGUAGES/README_FR.md)
-- Ivory Coast: [Fula](./README/LANGUAGES/README_NG.md), [French](./README/LANGUAGES/README_FR.md)
+- Ivory Coast: [Fula](./README/LANGUAGES/README_CI.md), [French](./README/LANGUAGES/README_FR.md)
 - Cameroon: [French](./README/LANGUAGES/README_FR.md), [Hausa](./README/LANGUAGES/README_NG.md), [English](./README/LANGUAGES/README_EN.md)
 - China: [Chinese](./README/LANGUAGES/README_CN.md), [Sichuan Yi](./README/LANGUAGES/README_CN.md), [Tibetan](./README/LANGUAGES/README_CN.md), [Uighur](./README/LANGUAGES/README_CN.md)
 - DR Congo: [French](./README/LANGUAGES/README_FR.md), [Swahili](./README/LANGUAGES/README_KE.md), [Lingala](./README/LANGUAGES/README_CG.md)
