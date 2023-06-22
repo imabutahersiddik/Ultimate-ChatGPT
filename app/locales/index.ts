@@ -1,5 +1,5 @@
-import AH from "./ah.ts";
 import AF from "./af.ts";
+import AH from "./ah.ts";
 import AI from "./ai.ts";
 import AL from "./al.ts";
 import AM from "./am.ts";
@@ -200,7 +200,7 @@ import { merge } from "../utils/merge";
 export type { LocaleType, RequiredLocaleType } from "./cn";
 
 export const AllLangs = [
-"ah", "af", "al", "am", "ar", "az", "be", "bg", "bn", "bs", "bw", "by", "cd", "cf", "cg", "ch", "ci", "cm", "cn", "cs", "da", "de", "dk", "dz", "ec", "ee", "eg", "eh", "el", "en", "er", "es", "et", "fi", "fj", "fl", "fm", "fr", "ga", "gb", "gh", "gm", "gn", "gq", "gr", "gt", "gu", "gw", "gy", "hk", "hn", "hr", "ht", "hu", "id", "ie", "il", "in", "iq", "ir", "is", "it", "jm", "jo", "jp", "ke", "kg", "kh", "ki", "km", "kn", "kp", "kr", "kw", "kz", "la", "lb", "lc", "li", "lk", "lr", "ls", "lt", "lu", "lv", "ly", "ma", "mc", "md", "me", "mg", "mh", "mk", "ml", "mm", "mn", "mo", "mp", "mq", "mr", "ms", "mt", "mu", "mv", "mw", "mx", "my", "mz", "na", "nc", "ne", "nf", "ng", "ni", "nl", "no", "nr", "nu", "nz", "om", "pa", "pe", "pf", "pg", "ph", "pk", "pl", "pm", "pn", "pr", "ps", "pt", "pw", "py", "qa", "re", "ro", "rs", "ru", "rw", "sa", "sb", "sc", "sd", "se", "sg", "sh", "si", "sj", "sk", "sl", "sm", "sn", "so", "sr", "ss", "st", "sv", "sx", "sy", "sz", "tc", "td", "tf", "tg", "th", "tj", "tk", "tl", "tm", "tn", "to", "tr", "tt", "tv", "tw", "tz", "ua", "ug", "um", "us", "uy", "uz", "va", "vc", "ve", "vg", "vi", "vn", "vu", "wf", "ws", "xk", "ye", "yt", "za", "zm", "zw",
+"af", "ah", "al", "am", "ar", "az", "be", "bg", "bn", "bs", "bw", "by", "cd", "cf", "cg", "ch", "ci", "cm", "cn", "cs", "da", "de", "dk", "dz", "ec", "ee", "eg", "eh", "el", "en", "er", "es", "et", "fi", "fj", "fl", "fm", "fr", "ga", "gb", "gh", "gm", "gn", "gq", "gr", "gt", "gu", "gw", "gy", "hk", "hn", "hr", "ht", "hu", "id", "ie", "il", "in", "iq", "ir", "is", "it", "jm", "jo", "jp", "ke", "kg", "kh", "ki", "km", "kn", "kp", "kr", "kw", "kz", "la", "lb", "lc", "li", "lk", "lr", "ls", "lt", "lu", "lv", "ly", "ma", "mc", "md", "me", "mg", "mh", "mk", "ml", "mm", "mn", "mo", "mp", "mq", "mr", "ms", "mt", "mu", "mv", "mw", "mx", "my", "mz", "na", "nc", "ne", "nf", "ng", "ni", "nl", "no", "nr", "nu", "nz", "om", "pa", "pe", "pf", "pg", "ph", "pk", "pl", "pm", "pn", "pr", "ps", "pt", "pw", "py", "qa", "re", "ro", "rs", "ru", "rw", "sa", "sb", "sc", "sd", "se", "sg", "sh", "si", "sj", "sk", "sl", "sm", "sn", "so", "sr", "ss", "st", "sv", "sx", "sy", "sz", "tc", "td", "tf", "tg", "th", "tj", "tk", "tl", "tm", "tn", "to", "tr", "tt", "tv", "tw", "tz", "ua", "ug", "um", "us", "uy", "uz", "va", "vc", "ve", "vg", "vi", "vn", "vu", "wf", "ws", "xk", "ye", "yt", "za", "zm", "zw",
 ] as const;
 export type Lang = (typeof AllLangs)[number];
 
@@ -449,8 +449,8 @@ export function changeLang(lang: Lang) {
 
 const fallbackLang = EN;
 const targetLang = {
-  ah: AH,
-  af: AF,
+af: AF,
+ah: AH,
 al: AL,
 am: AM,
 ar: AR,
