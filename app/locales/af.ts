@@ -1,7 +1,7 @@
 import { SubmitKey } from "../store/config";
 import { RequiredLocaleType } from "./index";
 
-const en: RequiredLocaleType = {
+const af: RequiredLocaleType = {
   WIP: "Binnekort beskikbaar...",
   Error: {
     Unauthorized:
