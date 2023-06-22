@@ -55,7 +55,6 @@ import IN from "./in";
 import IR from "./ir";
 import IQ from "./iq";
 import IS from "./is";
-import IT from "./it";
 import JM from "./jm";
 import JO from "./jo";
 import JP from "./jp";
@@ -253,7 +252,6 @@ export const AllLangs = [
   "ir",
   "iq",
   "is",
-  "it",
   "jm",
   "jo",
   "jp",
@@ -449,7 +447,6 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   ir: "فارسی",
   iq: "العربية",
   is: "Íslenska",
-  it: "Italiano",
   jm: "English",
   jo: "العربية",
   jp: "日本語",
@@ -693,7 +690,6 @@ const targetLang = {
   ir: IR,
   iq: IQ,
   is: IS,
-  it: IT,
   jm: JM,
   jo: JO,
   jp: JP,
