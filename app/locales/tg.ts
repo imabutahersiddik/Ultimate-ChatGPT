@@ -132,7 +132,7 @@ const tg: RequiredLocaleType = {
       SubTitle: "I-preview ang markdown sa isang bubble",
     },
     Mask: {
-      Prompt: "Prompt Splash Screen",
+      Title: "Prompt Splash Screen",
       SubTitle: "Itakda ang isang prompt splash screen bago mag-umpisa ng bagong chat",
     },
     Prompt: {
