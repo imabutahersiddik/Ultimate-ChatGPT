@@ -139,7 +139,7 @@ const targetLang = {
   en: EN,
   cn: CN,
   tw: TW,
-  hi: HI
+  hi: HI,
   fr: FR,
   es: ES,
   it: IT,
