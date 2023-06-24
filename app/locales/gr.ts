@@ -1,3 +1,6 @@
+import { SubmitKey } from "../store/config";
+import { RequiredLocaleType } from "./index";
+
 const gr: RequiredLocaleType = {
   WIP: "Έρχεται σύντομα...",
   Error: {
