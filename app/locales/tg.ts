@@ -169,7 +169,7 @@ const tg: RequiredLocaleType = {
     },
     Usage: {
       Title: "Kalagayan ng Account",
-      SubTitle(nagamit: any, kabuuan: any) {
+      SubTitle(used: any, total: any) {
         return `Nagamit sa buwang ito $${used}, pag-aari $${total}`;
       },
       IsChecking: "Sinusuri...",
