@@ -146,8 +146,8 @@ const tg: RequiredLocaleType = {
       Edit: "I-edit",
       Modal: {
         Title: "Listahan ng Prompt",
-        Magdagdag: "Magdagdag ng Isa",
-        Maghanap: "Maghanap ng Mga Prompt",
+        Add: "Magdagdag ng Isa",
+        Search: "Maghanap ng Mga Prompt",
       },
       EditModal: {
         Title: "I-edit ang Prompt",
