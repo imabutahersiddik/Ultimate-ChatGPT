@@ -2,6 +2,7 @@ import AR from "./ar";
 import BN from "./bn";
 import CN from "./cn";
 import EN from "./en";
+import HI from "./hi";
 import TW from "./tw";
 import FR from "./fr";
 import ES from "./es";
@@ -13,6 +14,15 @@ import VI from "./vi";
 import RU from "./ru";
 import CS from "./cs";
 import KO from "./ko";
+import PL from "./pl";
+import CR from "./cr";
+import PR from "./pr";
+import CZ from "./cz";
+import GR from "./gr";
+import KZ from "./kz";
+import DU from "./du";
+import HR from "./hr";
+import TG from "./tg";
 import { merge } from "../utils/merge";
 
 export type { LocaleType, RequiredLocaleType } from "./cn";
@@ -22,6 +32,7 @@ export const AllLangs = [
   "bn",
   "en",
   "cn",
+  "hi",
   "tw",
   "fr",
   "es",
@@ -33,6 +44,15 @@ export const AllLangs = [
   "ru",
   "cs",
   "ko",
+  "pl",
+  "cr",
+  "pr",
+  "cz",
+  "gr",
+  "kz",
+  "du",
+  "hr",
+  "tg",
 ] as const;
 export type Lang = (typeof AllLangs)[number];
 
@@ -41,6 +61,7 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   bn: "বাংলা",
   cn: "简体中文",
   en: "English",
+  hi: "हिंदी",
   tw: "繁體中文",
   fr: "Français",
   es: "Español",
@@ -52,6 +73,15 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   ru: "Русский",
   cs: "Čeština",
   ko: "한국어",
+  pl: "Polski",
+  cr: "Cornish",
+  pr: "Portugêse",
+  cz: "Czech",
+  gr: "Greek",
+  kz: "Kazakh",
+  du: "Dutch",
+  hr: "Hebrew",
+  tg: "Tagalog",
 };
 
 const LANG_KEY = "lang";
@@ -109,6 +139,7 @@ const targetLang = {
   en: EN,
   cn: CN,
   tw: TW,
+  hi: HI
   fr: FR,
   es: ES,
   it: IT,
@@ -119,6 +150,15 @@ const targetLang = {
   ru: RU,
   cs: CS,
   ko: KO,
+  pl: PL,
+  cr: CR,
+  pr: PR,
+  cz: CZ,
+  gr: GR,
+  kz: KZ,
+  du: DU,
+  hr: HR,
+  tg: TG,
 }[getLang()] as typeof CN;
 
 // if target lang missing some fields, it will use fallback lang string
