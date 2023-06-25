@@ -136,17 +136,6 @@ export function NewChat() {
           ></IconButton>
         )}
       </div>
-      <div className={styles["mask-cards"]}>
-        <div className={styles["mask-card"]}>
-          <EmojiAvatar avatar="1f4dd" size={24} />
-        </div>
-        <div className={styles["mask-card"]}>
-          <EmojiAvatar avatar="1f4ac" size={24} />
-        </div>
-        <div className={styles["mask-card"]}>
-          <EmojiAvatar avatar="1f4cb" size={24} />
-        </div>
-      </div>
 
       <div className={styles["title"]}>{Locale.NewChat.Title}</div>
       <div className={styles["sub-title"]}>{Locale.NewChat.SubTitle}</div>
