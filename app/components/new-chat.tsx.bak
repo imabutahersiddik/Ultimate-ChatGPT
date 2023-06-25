@@ -138,7 +138,7 @@ export function NewChat() {
       </div>
       <div className={styles["mask-cards"]}>
         <div className={styles["mask-card"]}>
-          <EmojiAvatar avatar="14444" size={24} />
+          <EmojiAvatar avatar="1f58a" size={24} />
         </div>
         <div className={styles["mask-card"]}>
           <EmojiAvatar avatar="1f4ac" size={24} />
