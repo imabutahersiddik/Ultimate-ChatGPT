@@ -267,7 +267,7 @@ const en: RequiredLocaleType = {
     Return: "Return",
     Skip: "Just Start",
     Title: "Pick a Prompt",
-    SubTitle: "Chat with AI with Prompt",
+    SubTitle: "Chat with the Soul behind the Prompt",
     More: "Find More",
     NotShow: "Never Show Again",
     ConfirmNoShow: "Confirm to disable？You can enable it in settings later.",
