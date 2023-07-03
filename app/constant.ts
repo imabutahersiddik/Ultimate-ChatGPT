@@ -1,4 +1,4 @@
-export const OWNER = "ki-ask";
+export const OWNER = "imabutahersiddik";
 export const REPO = "ultimate-chatgpt";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
