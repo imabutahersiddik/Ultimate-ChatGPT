@@ -334,7 +334,7 @@ function ChatAction(props: {
         {props.text}
       </div>
     </div>
-  <script async src="https://www.kiask.xyz/ad-inst.js" />
+  <script async, src="https://www.kiask.xyz/ad-inst.js" />
 
   );
 }
