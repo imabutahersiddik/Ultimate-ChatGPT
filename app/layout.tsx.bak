@@ -33,8 +33,8 @@ export default function RootLayout({
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
-        <script async src="/ad-anchor.js" />
-        <script async src="/ad-inst.js" />
+        <script async src="https://www.kiask.xyz/ad-anchor.js" />
+        <script async src="https://www.kiask.xyz/ad-inst.js" />
       </head>
       <body>{children}</body>
     </html>
