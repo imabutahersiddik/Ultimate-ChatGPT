@@ -54,7 +54,7 @@ if (mode !== "export") {
       },
       {
         source: "/kiaskshare",
-        destination: "https://kiask.xyz/api/conversations",
+        destination: "https://www.kiask.xyz/api/conversations",
       },
     ];
 
