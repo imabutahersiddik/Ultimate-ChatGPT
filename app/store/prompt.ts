@@ -126,7 +126,7 @@ export const usePromptStore = create<PromptStore>()(
 
       search(text) {
         if (text.length === 0) {
-          // return all prompts
+          // return all rompts
           return SearchService.allPrompts.concat([...get().getUserPrompts()]);
         }
         return SearchService.search(text) as Prompt[];
@@ -143,7 +143,7 @@ export const usePromptStore = create<PromptStore>()(
         fetch(PROMPT_URL)
           .then((res) => res.json())
           .then((res) => {
-            let fetchPrompts = [res.en, res.cn, res.es]; // Add 'es' prompts
+            let fetchPrompts = [res.en, res.cn];
             if (getLang() === "cn") {
               fetchPrompts = fetchPrompts.reverse();
             }
@@ -166,7 +166,7 @@ export const usePromptStore = create<PromptStore>()(
             const allPromptsForSearch = builtinPrompts
               .reduce((pre, cur) => pre.concat(cur), [])
               .filter((v) => !!v.title && !!v.content);
-            SearchService.count.builtin = res.en.length + res.cn.length + res.es.length; // Update count
+            SearchService.count.builtin = res.en.length + res.cn.length;
             SearchService.init(allPromptsForSearch, userPrompts);
           });
       },
