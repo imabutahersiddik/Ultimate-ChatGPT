@@ -9,7 +9,7 @@ const en: RequiredLocaleType = {
   },
   Auth: {
     Title: "Need Access Code",
-    Tips: "Please enter access code below",
+    Tips: "Please enter access code below, Your access code is: &quot;ALIF_LAM_MEEM&quot; and &quot;LA_ILAHA_ILLAL_LAH&quot;",
     Input: "access code",
     Confirm: "Confirm",
     Later: "Later",
