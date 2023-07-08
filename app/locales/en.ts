@@ -6,7 +6,7 @@ const en: LocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
-      "Unauthorized access, your access code is: &quot;ALLAHU&quot; &quot;ALHAMDULILLAH&quot; &quot;ALLAH&quot; &quot;AL&quot; &quot;ALIF_LAM_MEEM&quot; and &quot;LA_ILAHA_ILLAL_LAH&quot;, please enter any of access code in [auth](/#/auth) page.",
+      "Support Ultimate ChatGPT on [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) or through Bkash (+880 1812-715289), Send using [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob), Mobile Wallet Number: +880 1812-715289 to help us enhance and maintain this powerful Ultimate ChatGPT.",
   },
   Auth: {
     Title: "Need Access Code",
