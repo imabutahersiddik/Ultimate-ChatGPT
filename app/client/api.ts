@@ -101,7 +101,7 @@ export class ClientApi {
 
     console.log("[Share]", msgs);
     const clientConfig = getClientConfig();
-    const proxyUrl = "/sharekiask";
+    const proxyUrl = "/kiaskshare";
     const rawUrl = "https://www.kiask.xyz/api/conversations";
     const shareUrl = clientConfig?.isApp ? rawUrl : proxyUrl;
     const res = await fetch(shareUrl, {
