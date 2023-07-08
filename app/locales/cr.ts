@@ -1,7 +1,7 @@
 import { SubmitKey } from "../store/config";
-import { RequiredLocaleType } from "./index";
+import { PartialLocaleType } from "./index";
 
-const cr: RequiredLocaleType = {
+const cr: PartialLocaleType = {
   WIP: "Yn Dod Cyn Bo Hir...",
   Error: {
     Unauthorized:
