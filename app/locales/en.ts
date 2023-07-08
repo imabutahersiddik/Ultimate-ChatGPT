@@ -6,7 +6,7 @@ const en: LocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
-      "Unauthorized access, your access code is: &quot;ALIF_LAM_MEEM&quot; and &quot;LA_ILAHA_ILLAL_LAH&quot;, please enter access code in [auth](/#/auth) page.",
+      "Unauthorized access, your access code is: &quot;ALLAHU&quot;-&quot;ALHAMDULILLAH&quot;-&quot;ALLAH&quot;-&quot;AL&quot;-&quot;ALIF_LAM_MEEM&quot; and &quot;LA_ILAHA_ILLAL_LAH&quot;, please enter any of access code in [auth](/#/auth) page.",
   },
   Auth: {
     Title: "Need Access Code",
