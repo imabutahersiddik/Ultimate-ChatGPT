@@ -1,7 +1,7 @@
 import { SubmitKey } from "../store/config";
 import { RequiredLocaleType } from "./index";
 
-const kr: RequiredLocaleType = {
+const cr: RequiredLocaleType = {
   WIP: "Yn Dod Cyn Bo Hir...",
   Error: {
     Unauthorized:
@@ -282,4 +282,4 @@ const kr: RequiredLocaleType = {
   },
 };
 
-export default kr;
+export default cr;
