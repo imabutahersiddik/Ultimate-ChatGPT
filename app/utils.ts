@@ -8,7 +8,12 @@ export function trimTopic(topic: string) {
 
 export async function copyToClipboard(text: string) {
   try {
-    await navigator.clipboard.writeText(text);
+    if (window.__TAURI__) {
+      window.__TAURI__.writeText(text);
+    } else {
+      await navigator.clipboard.writeText(text);
+    }
+
     showToast(Locale.Copy.Success);
   } catch (error) {
     const textArea = document.createElement("textarea");
@@ -91,7 +96,7 @@ export function useWindowSize() {
   return size;
 }
 
-export const MOBILE_MAX_WIDTH = 599;
+export const MOBILE_MAX_WIDTH = 600;
 export function useMobileScreen() {
   const { width } = useWindowSize();
 
@@ -152,6 +157,7 @@ export function autoGrowTextArea(dom: HTMLTextAreaElement) {
   const width = getDomContentWidth(dom);
   measureDom.style.width = width + "px";
   measureDom.innerText = dom.value !== "" ? dom.value : "1";
+  measureDom.style.fontSize = dom.style.fontSize;
   const endWithEmptyLine = dom.value.endsWith("\n");
   const height = parseFloat(window.getComputedStyle(measureDom).height);
   const singleLineHeight = parseFloat(

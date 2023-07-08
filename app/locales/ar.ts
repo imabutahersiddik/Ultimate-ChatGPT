@@ -1,14 +1,14 @@
 import { SubmitKey } from "../store/config";
-import { RequiredLocaleType } from "./index";
+import type { PartialLocaleType } from "./index";
 
-const ar: RequiredLocaleType = {
+const ar: PartialLocaleType = {
   WIP: "قريبًا...",
   Error: {
     Unauthorized:
-      "لا يُسمح بالوصول غير المصرح به، يُرجى إدخال رمز الوصول في صفحة [المصادقة](/#/auth).",
+      "غير مصرح بالوصول، يرجى إدخال رمز الوصول [auth](/#/auth) في صفحة المصادقة.",
   },
   Auth: {
-    Title: "يحتاج رمز الوصول",
+    Title: "تحتاج إلى رمز الوصول",
     Tips: "يرجى إدخال رمز الوصول أدناه",
     Input: "رمز الوصول",
     Confirm: "تأكيد",
@@ -18,10 +18,10 @@ const ar: RequiredLocaleType = {
     ChatItemCount: (count: number) => `${count} رسائل`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} رسالة مع TheChatGPT`,
+    SubTitle: (count: number) => ` ${count} رسائل مع ChatGPT`,
     Actions: {
       ChatList: "الانتقال إلى قائمة الدردشة",
-      CompressedHistory: "ذاكرة تاريخ الدردشة المضغوطة",
+      CompressedHistory: "ملخص ضغط ذاكرة التاريخ",
       Export: "تصدير جميع الرسائل كـ Markdown",
       Copy: "نسخ",
       Stop: "توقف",
@@ -33,43 +33,43 @@ const ar: RequiredLocaleType = {
       ToBottom: "إلى آخر",
       Theme: {
         auto: "تلقائي",
-        light: "سمة فاتحة",
-        dark: "سمة داكنة",
+        light: "نمط فاتح",
+        dark: "نمط داكن",
       },
-      Prompt: "تلميحات",
+      Prompt: "الاقتراحات",
       Masks: "الأقنعة",
       Clear: "مسح السياق",
       Settings: "الإعدادات",
     },
     Rename: "إعادة تسمية الدردشة",
-    Typing: "جارٍ الكتابة...",
+    Typing: "كتابة...",
     Input: (submitKey: string) => {
-      var inputHints = `اضغط على ${submitKey} للإرسال`;
+      var inputHints = ` اضغط على ${submitKey} للإرسال`;
       if (submitKey === String(SubmitKey.Enter)) {
-        inputHints += "، Shift + Enter للتفاف";
+        inputHints += "، Shift + Enter للإنشاء";
       }
-      return inputHints + "، / للبحث في التلميحات";
+      return inputHints + "، / للبحث في الاقتراحات";
     },
     Send: "إرسال",
     Config: {
-      Reset: "إعادة التعيين إلى الافتراضي",
-      SaveAs: "حفظ كـ قناع",
+      Reset: "إعادة التعيين إلى الإعدادات الافتراضية",
+      SaveAs: "حفظ كأقنعة",
     },
   },
   Export: {
     Title: "تصدير الرسائل",
     Copy: "نسخ الكل",
-    Download: "تحميل",
+    Download: "تنزيل",
     MessageFromYou: "رسالة منك",
     MessageFromChatGPT: "رسالة من ChatGPT",
-    Share: "مشاركة على KiAsk Share",
+    Share: "مشاركة على ShareGPT",
     Format: {
-      Title: "تنسيق التصدير",
+      Title: "صيغة التصدير",
       SubTitle: "Markdown أو صورة PNG",
     },
     IncludeContext: {
       Title: "تضمين السياق",
-      SubTitle: "تصدير تلميحات السياق في القناع أم لا",
+      SubTitle: "تصدير اقتراحات السياق في الأقنعة أم لا",
     },
     Steps: {
       Select: "تحديد",
@@ -79,87 +79,87 @@ const ar: RequiredLocaleType = {
   Select: {
     Search: "بحث",
     All: "تحديد الكل",
-    Latest: "تحديد آخر",
+    Latest: "تحديد أحدث",
     Clear: "مسح",
   },
   Memory: {
-    Title: "تلميح الذاكرة",
-    EmptyContent: "لا يوجد شيء بعد.",
-    Send: "إرسال التلميح",
-    Copy: "نسخ التلميح",
-    Reset: "إعادة التعيين للجلسة",
+    Title: "اقتراحات الذاكرة",
+    EmptyContent: "لا شيء حتى الآن.",
+    Send: "إرسال الذاكرة",
+    Copy: "نسخ الذاكرة",
+    Reset: "إعادة التعيين",
     ResetConfirm:
-      "سيؤدي إعادة التعيين إلى مسح سجل المحادثة الحالي والذاكرة التاريخية. هل أنت متأكد أنك تريد إعادة التعيين؟",
+      "سيؤدي إعادة التعيين إلى مسح سجل المحادثة الحالي والذاكرة التاريخية. هل أنت متأكد أنك تريد الاستمرار؟",
   },
   Home: {
     NewChat: "دردشة جديدة",
-    DeleteChat: "تأكيد حذف المحادثة المحددة؟",
+    DeleteChat: "هل تريد تأكيد حذف المحادثة المحددة؟",
     DeleteToast: "تم حذف الدردشة",
-    Revert: "استعادة",
+    Revert: "التراجع",
   },
   Settings: {
     Title: "الإعدادات",
     SubTitle: "جميع الإعدادات",
-    Actions: {
-      ClearAll: "مسح جميع البيانات",
-      ResetAll: "إعادة تعيين جميع الإعدادات",
-      Close: "إغلاق",
-      ConfirmResetAll: "هل أنت متأكد أنك تريد إعادة تعيين جميع الإعدادات؟",
-      ConfirmClearAll: "هل أنت متأكد أنك تريد مسح جميع البيانات؟",
-    },
+
     Lang: {
-      Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
-      All: "جميع اللغات",
+      Name: "Language", // تنبيه: إذا كنت ترغب في إضافة ترجمة جديدة، يرجى عدم ترجمة هذه القيمة وتركها "Language"
+      All: "كل اللغات",
     },
     Avatar: "الصورة الرمزية",
     FontSize: {
       Title: "حجم الخط",
       SubTitle: "ضبط حجم الخط لمحتوى الدردشة",
     },
+    InputTemplate: {
+      Title: "نموذج الإدخال",
+      SubTitle: "سيتم ملء أحدث رسالة في هذا النموذج",
+    },
     Update: {
-      Version: (x: string) => `الإصدار: ${x}`,
+      Version: (x: string) => ` الإصدار: ${x}`,
       IsLatest: "أحدث إصدار",
       CheckUpdate: "التحقق من التحديث",
       IsChecking: "جارٍ التحقق من التحديث...",
-      FoundUpdate: (x: string) => `تم العثور على إصدار جديد: ${x}`,
+      FoundUpdate: (x: string) => ` تم العثور على إصدار جديد: ${x}`,
       GoToUpdate: "التحديث",
     },
     SendKey: "مفتاح الإرسال",
     Theme: "السمة",
     TightBorder: "حدود ضيقة",
     SendPreviewBubble: {
-      Title: "إرسال فقاعة المعاينة",
-      SubTitle: "عرض تنسيق Markdown في فقاعة",
+      Title: "عرض معاينة الـ Send",
+      SubTitle: "معاينة Markdown في فقاعة",
     },
     Mask: {
-      Title: "شاشة تظهر قناعًا",
-      SubTitle: "عرض شاشة تظهر قناعًا قبل بدء دردشة جديدة",
+      Splash: {
+        Title: "شاشة تظهر الأقنعة",
+        SubTitle: "عرض شاشة تظهر الأقنعة قبل بدء الدردشة الجديدة",
+      },
     },
     Prompt: {
       Disable: {
-        Title: "تعطيل الإكمال التلقائي",
-        SubTitle: "اكتب / لتشغيل الإكمال التلقائي",
+        Title: "تعطيل الاكتمال التلقائي",
+        SubTitle: "اكتب / لتشغيل الاكتمال التلقائي",
       },
-      List: "قائمة التلميحات",
-      ListCount: (builtin: number, custom: number) =>
-        `${builtin} مدمجة، ${custom} محددة من قبل المستخدم`,
-      Edit: "تحرير",
+      List: "قائمة الاقتراحات",
+      ListCount: (builtin: number, custom: number) => `
+${builtin} مدمجة، ${custom} تم تعريفها من قبل المستخدم`,
+      Edit: "تعديل",
       Modal: {
-        Title: "قائمة التلميحات",
+        Title: "قائمة الاقتراحات",
         Add: "إضافة واحدة",
-        Search: "البحث في التلميحات",
+        Search: "البحث في الاقتراحات",
       },
       EditModal: {
-        Title: "تحرير التلميح",
+        Title: "تحرير الاقتراح",
       },
     },
     HistoryCount: {
       Title: "عدد الرسائل المرفقة",
-      SubTitle: "عدد الرسائل المرسلة المرفقة لكل طلب",
+      SubTitle: "عدد الرسائل المرسلة المرفقة في كل طلب",
     },
     CompressThreshold: {
-      Title: "حد ضغط التاريخ",
-      SubTitle: "سيتم ضغطه إذا تجاوز طول الرسائل غير المضغوطة القيمة",
+      Title: "حد الضغط للتاريخ",
+      SubTitle: "سيتم الضغط إذا تجاوزت طول الرسائل غير المضغوطة الحد المحدد",
     },
     Token: {
       Title: "مفتاح API",
@@ -169,7 +169,7 @@ const ar: RequiredLocaleType = {
     Usage: {
       Title: "رصيد الحساب",
       SubTitle(used: any, total: any) {
-        return `استخدمت هذا الشهر $${used}، الاشتراك $${total}`;
+        return `تم استخدام $${used} من هذا الشهر، الاشتراك ${total}`;
       },
       IsChecking: "جارٍ التحقق...",
       Check: "التحقق",
@@ -186,65 +186,68 @@ const ar: RequiredLocaleType = {
     },
     Model: "النموذج",
     Temperature: {
-      Title: "درجة الحرارة",
+      Title: "الحرارة",
       SubTitle: "قيمة أكبر تجعل الإخراج أكثر عشوائية",
     },
     MaxTokens: {
       Title: "الحد الأقصى للرموز",
-      SubTitle: "الحد الأقصى لطول رموز الإدخال والرموز المولدة",
+      SubTitle: "الحد الأقصى لعدد الرموز المدخلة والرموز المُنشأة",
     },
     PresencePenalty: {
-      Title: "جزاء الوجود",
+      Title: "تأثير الوجود",
       SubTitle: "قيمة أكبر تزيد من احتمالية التحدث عن مواضيع جديدة",
+    },
+    FrequencyPenalty: {
+      Title: "تأثير التكرار",
+      SubTitle: "قيمة أكبر تقلل من احتمالية تكرار نفس السطر",
     },
   },
   Store: {
     DefaultTopic: "محادثة جديدة",
     BotHello: "مرحبًا! كيف يمكنني مساعدتك اليوم؟",
-    Error: "حدث خطأ ما، يُرجى المحاولة مرة أخرى لاحقًا.",
+    Error: "حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق.",
     Prompt: {
-      History: (content: string) =>
-        "هذه هي ملخص لسجل الدردشة كمراجعة: " + content,
+      History: (content: string) => "هذا ملخص لسجل الدردشة كمراجعة: " + content,
       Topic:
-        "يرجى إنشاء عنوان ملخص لمحادثتنا مكون من أربع إلى خمس كلمات بدون أي مقدمة أو علامات ترقيم أو علامات اقتباس أو نقاط أو رموز أو نص إضافي. قم بإزالة علامات التنصيص الخارجية.",
+        "يرجى إنشاء عنوان يتكون من أربع إلى خمس كلمات يلخص محادثتنا دون أي مقدمة أو ترقيم أو علامات ترقيم أو نقاط أو رموز إضافية. قم بإزالة علامات التنصيص المحيطة.",
       Summarize:
-        "قم بإعطاء ملخص موجز للمناقشة بأقل من 200 كلمة لاستخدامه كتلميح للسياق المستقبلي.",
+        "قم بتلخيص النقاش بشكل موجز في 200 كلمة أو أقل لاستخدامه كاقتراح للسياق في المستقبل.",
     },
   },
   Copy: {
     Success: "تم النسخ إلى الحافظة",
-    Failed: "فشلت عملية النسخ، يُرجى منح الإذن للوصول إلى الحافظة",
+    Failed: "فشلت عملية النسخ، يرجى منح الإذن للوصول إلى الحافظة",
   },
   Context: {
-    Toast: (x: any) => `مع ${x} تلميحات سياقية`,
-    Edit: "تلميحات السياق والذاكرة",
-    Add: "إضافة تلميح",
+    Toast: (x: any) => `مع ${x} اقتراحًا ذا سياق`,
+    Edit: "الاقتراحات السياقية والذاكرة",
+    Add: "إضافة اقتراح",
     Clear: "مسح السياق",
-    Revert: "استعادة",
+    Revert: "التراجع",
   },
   Plugin: {
-    Name: "المكون الإضافي",
+    Name: "المكوّن الإضافي",
   },
   Mask: {
-    Name: "القناع",
+    Name: "الأقنعة",
     Page: {
-      Title: "قالب التلميح",
-      SubTitle: (count: number) => `${count} قوالب تلميح`,
+      Title: "قالب الاقتراح",
+      SubTitle: (count: number) => `${count} قوالب الاقتراح`,
       Search: "البحث في القوالب",
       Create: "إنشاء",
     },
     Item: {
-      Info: (count: number) => `${count} تلميحات`,
-      Chat: "دردشة",
+      Info: (count: number) => `${count} اقتراحات`,
+      Chat: "الدردشة",
       View: "عرض",
-      Edit: "تحرير",
+      Edit: "تعديل",
       Delete: "حذف",
       DeleteConfirm: "تأكيد الحذف؟",
     },
     EditModal: {
-      Title: (readonly: boolean) =>
-        `تحرير قالب التلميح ${readonly ? "(للقراءة فقط)" : ""}`,
-      Download: "تحميل",
+      Title: (readonly: boolean) => `
+تعديل قالب الاقتراح ${readonly ? "(للقراءة فقط)" : ""}`,
+      Download: "تنزيل",
       Clone: "استنساخ",
     },
     Config: {
@@ -252,23 +255,23 @@ const ar: RequiredLocaleType = {
       Name: "اسم الروبوت",
       Sync: {
         Title: "استخدام الإعدادات العامة",
-        SubTitle: "استخدم الإعدادات العامة في هذه الدردشة",
-        Confirm: "تأكيد الاستبدال بالإعدادات المخصصة؟",
+        SubTitle: "استخدام الإعدادات العامة في هذه الدردشة",
+        Confirm: "تأكيد الاستبدال بالإعدادات المخصصة بالإعدادات العامة؟",
       },
       HideContext: {
-        Title: "إخفاء تلميحات السياق",
-        SubTitle: "عدم عرض تلميحات السياق في الدردشة",
+        Title: "إخفاء اقتراحات السياق",
+        SubTitle: "عدم عرض اقتراحات السياق في الدردشة",
       },
     },
   },
   NewChat: {
     Return: "العودة",
     Skip: "ابدأ فقط",
-    Title: "اختر قناعًا",
+    Title: "اختيار قناع",
     SubTitle: "دردشة مع الروح وراء القناع",
-    More: "العثور على المزيد",
-    NotShow: "لا تظهر مرة أخرى",
-    ConfirmNoShow: "تأكيد الإلغاء؟ يمكنك تمكينه في الإعدادات لاحقًا.",
+    More: "المزيد",
+    NotShow: "عدم العرض مرة أخرى",
+    ConfirmNoShow: "تأكيد تعطيله؟ يمكنك تمكينه في الإعدادات لاحقًا.",
   },
 
   UI: {
@@ -276,7 +279,13 @@ const ar: RequiredLocaleType = {
     Cancel: "إلغاء",
     Close: "إغلاق",
     Create: "إنشاء",
-    Edit: "تحرير",
+    Edit: "تعديل",
+  },
+  Exporter: {
+    Model: "النموذج",
+    Messages: "الرسائل",
+    Topic: "الموضوع",
+    Time: "الوقت",
   },
 };
 

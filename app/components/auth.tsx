@@ -22,7 +22,6 @@ export function AuthPage() {
 
       <div className={styles["auth-title"]}>{Locale.Auth.Title}</div>
       <div className={styles["auth-tips"]}>{Locale.Auth.Tips}</div>
-      <div className={styles["auth-tips"]}>Your access code is: &quot;ALIF_LAM_MEEM&quot; and &quot;LA_ILAHA_ILLAL_LAH&quot;</div>
 
       <input
         className={styles["auth-input"]}

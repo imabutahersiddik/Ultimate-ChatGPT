@@ -38,9 +38,15 @@ export interface LLMUsage {
   total: number;
 }
 
+export interface LLMModel {
+  name: string;
+  available: boolean;
+}
+
 export abstract class LLMApi {
   abstract chat(options: ChatOptions): Promise<void>;
   abstract usage(): Promise<LLMUsage>;
+  abstract models(): Promise<LLMModel[]>;
 }
 
 type ProviderName = "openai" | "azure" | "claude" | "palm";
@@ -87,7 +93,7 @@ export class ClientApi {
         {
           from: "human",
           value:
-            "Share from [The Ultimate ChatGPT]: https://chatgpt.kiask.xyz",
+            "Share from [Ultimate ChatGPT]: https://chatgpt.kiask.xyz",
         },
       ]);
     // 敬告二开开发者们，为了开源大模型的发展，请不要修改上述消息，此消息用于后续数据清洗使用
@@ -95,7 +101,7 @@ export class ClientApi {
 
     console.log("[Share]", msgs);
     const clientConfig = getClientConfig();
-    const proxyUrl = "/kiaskshare";
+    const proxyUrl = "/sharekiask";
     const rawUrl = "https://www.kiask.xyz/api/conversations";
     const shareUrl = clientConfig?.isApp ? rawUrl : proxyUrl;
     const res = await fetch(shareUrl, {
@@ -112,7 +118,7 @@ export class ClientApi {
     const resJson = await res.json();
     console.log("[Share]", resJson);
     if (resJson.id) {
-      return `https://www.kiask.xyz/c/${resJson.id}`;
+      return `https://www.kiask.xyz/${resJson.id}`;
     }
   }
 }

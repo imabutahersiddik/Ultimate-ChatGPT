@@ -1,91 +1,76 @@
-import AR from "./ar";
-import BN from "./bn";
-import CN from "./cn";
-import EN from "./en";
-import HI from "./hi";
-import TW from "./tw";
-import FR from "./fr";
-import ES from "./es";
-import IT from "./it";
-import TR from "./tr";
-import JP from "./jp";
-import DE from "./de";
-import VI from "./vi";
-import RU from "./ru";
-import CS from "./cs";
-import KO from "./ko";
-import PL from "./pl";
-import CR from "./cr";
-import PR from "./pr";
-import CZ from "./cz";
-import GR from "./gr";
-import KZ from "./kz";
-import DU from "./du";
-import HR from "./hr";
-import TG from "./tg";
+import cn from "./cn";
+import en from "./en";
+import tw from "./tw";
+import fr from "./fr";
+import es from "./es";
+import it from "./it";
+import tr from "./tr";
+import jp from "./jp";
+import de from "./de";
+import vi from "./vi";
+import ru from "./ru";
+import no from "./no";
+import cs from "./cs";
+import ko from "./ko";
+import ar from "./ar";
+import bn from "./bn";
 import { merge } from "../utils/merge";
 
-export type { LocaleType, RequiredLocaleType } from "./cn";
+import type { LocaleType } from "./cn";
+export type { LocaleType, PartialLocaleType } from "./cn";
 
-export const AllLangs = [
-  "ar",
-  "bn",
-  "en",
-  "cn",
-  "hi",
-  "tw",
-  "fr",
-  "es",
-  "it",
-  "tr",
-  "jp",
-  "de",
-  "vi",
-  "ru",
-  "cs",
-  "ko",
-  "pl",
-  "cr",
-  "pr",
-  "cz",
-  "gr",
-  "kz",
-  "du",
-  "hr",
-  "tg",
-] as const;
-export type Lang = (typeof AllLangs)[number];
+const ALL_LANGS = {
+  cn,
+  en,
+  tw,
+  jp,
+  ko,
+  fr,
+  es,
+  it,
+  tr,
+  de,
+  vi,
+  ru,
+  cs,
+  no,
+  ar,
+  bn,
+};
+
+export type Lang = keyof typeof ALL_LANGS;
+
+export const AllLangs = Object.keys(ALL_LANGS) as Lang[];
 
 export const ALL_LANG_OPTIONS: Record<Lang, string> = {
-  ar: "عربي",
-  bn: "বাংলা",
   cn: "简体中文",
   en: "English",
-  hi: "हिंदी",
   tw: "繁體中文",
+  jp: "日本語",
+  ko: "한국어",
   fr: "Français",
   es: "Español",
   it: "Italiano",
   tr: "Türkçe",
-  jp: "日本語",
   de: "Deutsch",
   vi: "Tiếng Việt",
   ru: "Русский",
   cs: "Čeština",
-  ko: "한국어",
-  pl: "Polski",
-  cr: "Cornish",
-  pr: "Portugêse",
-  cz: "Czech",
-  gr: "Greek",
-  kz: "Kazakh",
-  du: "Dutch",
-  hr: "Hebrew",
-  tg: "Tagalog",
+  no: "Nynorsk",
+  ar: "العربية",
+  bn: "বাংলা",
 };
 
 const LANG_KEY = "lang";
 const DEFAULT_LANG = "en";
+
+const fallbackLang = en;
+const targetLang = ALL_LANGS[getLang()] as LocaleType;
+
+// if target lang missing some fields, it will use fallback lang string
+merge(fallbackLang, targetLang);
+
+export default fallbackLang as LocaleType;
 
 function getItem(key: string) {
   try {
@@ -131,37 +116,3 @@ export function changeLang(lang: Lang) {
   setItem(LANG_KEY, lang);
   location.reload();
 }
-
-const fallbackLang = EN;
-const targetLang = {
-  ar: AR,
-  bn: BN,
-  en: EN,
-  cn: CN,
-  tw: TW,
-  hi: HI,
-  fr: FR,
-  es: ES,
-  it: IT,
-  tr: TR,
-  jp: JP,
-  de: DE,
-  vi: VI,
-  ru: RU,
-  cs: CS,
-  ko: KO,
-  pl: PL,
-  cr: CR,
-  pr: PR,
-  cz: CZ,
-  gr: GR,
-  kz: KZ,
-  du: DU,
-  hr: HR,
-  tg: TG,
-}[getLang()] as typeof CN;
-
-// if target lang missing some fields, it will use fallback lang string
-merge(fallbackLang, targetLang);
-
-export default fallbackLang as typeof CN;
