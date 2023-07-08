@@ -36,6 +36,7 @@ export default function RootLayout({
         <script async src="https://www.kiask.xyz/ad-anchor.js" />
         <script async src="https://www.kiask.xyz/ad-inst.js" />
         <script async src="https://www.kiask.xyz/ad-push.js" />
+        <script async src="https://www.kiask.xyz/ad-push-inst.js" />
       </head>
       <body>{children}</body>
     </html>
