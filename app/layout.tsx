@@ -21,6 +21,9 @@ export const metadata = {
     title: "The Ultimate ChatGPT - Unlock the ultimate features of ChatGPT",
     statusBarStyle: "default",
   },
+}: {
+  title?: string;
+  description?: string;
 };
 
 export default function RootLayout({
