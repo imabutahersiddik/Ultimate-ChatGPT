@@ -18,6 +18,8 @@ import hi from "./hi";
 import hr from "./hr";
 import ur from "./ur";
 import pl from "./pl";
+import ph from "./ph";
+import pt from "./pt";
 import { merge } from "../utils/merge";
 
 import type { LocaleType } from "./cn";
@@ -44,6 +46,8 @@ const ALL_LANGS = {
   hr,
   ur,
   pl,
+  ph,
+  pt,
 };
 
 export type Lang = keyof typeof ALL_LANGS;
@@ -71,6 +75,8 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   hr: "שפה",
   ur: "زبان",
   pl: "Język",
+  ph: "Wika",
+  pt: "Idioma",
 };
 
 const LANG_KEY = "lang";
