@@ -69,7 +69,7 @@
 
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 
-![cover](./docs/images/cover.png)
+![cover](./../../docs/images/cover.png)
 
 </div>
 

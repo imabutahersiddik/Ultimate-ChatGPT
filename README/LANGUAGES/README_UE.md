@@ -1,7 +1,5 @@
-Sure! Here's the translation of the provided text to Basque:
-
 <div align="center">
-<img src="./docs/images/icon.png" alt="The Ultimate ChatGPT Ikurra"/>
+<img src="./../../docs/images/icon.png" alt="The Ultimate ChatGPT Ikurra"/>
 
 <h1 align="center">The Ultimate ChatGPT 🌟</h1>
 
@@ -86,7 +84,7 @@ The Ultimate ChatGPTk web aplikazioaren bidez eskuragarri da, interfaze erabilga
 
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 
-![cover](./docs/images/cover.png)
+![cover](./../../docs/images/cover.png)
 
 </div>
 

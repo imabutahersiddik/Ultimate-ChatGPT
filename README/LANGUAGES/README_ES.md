@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./docs/images/icon.png" alt="The Ultimate ChatGPT Icon"/>
+<img src="./../../docs/images/icon.png" alt="The Ultimate ChatGPT Icon"/>
 
 <h1 align="center">The Ultimate ChatGPT 🌟</h1>
 
@@ -74,7 +74,7 @@ The Ultimate ChatGPT es accesible a través de la aplicación web, que proporcio
 
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 
-![cover](./docs/images/cover.png)
+![cover](./../../docs/images/cover.png)
 
 </div>
 

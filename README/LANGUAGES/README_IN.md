@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./docs/images/icon.png" alt="The Ultimate ChatGPT Icon"/>
+<img src="./../../docs/images/icon.png" alt="The Ultimate ChatGPT Icon"/>
 
 <h1 align="center">द अल्टीमेट चैटजीपीटी 🌟</h1>
 
@@ -84,7 +84,7 @@
 
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 
-![cover](./docs/images/cover.png)
+![cover](./../../docs/images/cover.png)
 
 </div>
 

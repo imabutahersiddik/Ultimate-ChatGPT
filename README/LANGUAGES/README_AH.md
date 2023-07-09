@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./docs/images/icon.png" alt="የየመጀመሪያው ChatGPT አይኮን" />
+<img src="./../../docs/images/icon.png" alt="የየመጀመሪያው ChatGPT አይኮን" />
 
 <h1 align="center">የየመጀመሪያው ChatGPT አይኮን 🌟</h1>
 

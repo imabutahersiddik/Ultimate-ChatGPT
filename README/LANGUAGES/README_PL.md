@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./docs/images/icon.png" alt="The Ultimate ChatGPT Icon"/>
+<img src="./../../docs/images/icon.png" alt="The Ultimate ChatGPT Icon"/>
 
 <h1 align="center">The Ultimate ChatGPT 🌟</h1>
 
@@ -74,7 +74,7 @@ Ang Ultimate ChatGPT ay ma-access sa pamamagitan ng web app, na nagbibigay ng is
 
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 
-![cover](./docs/images/cover.png)
+![cover](./../../docs/images/cover.png)
 
 </div>
 

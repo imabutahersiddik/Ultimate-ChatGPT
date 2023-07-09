@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./docs/images/icon.png" alt="The Ultimate ChatGPT ikoon"/>
+<img src="./../../docs/images/icon.png" alt="The Ultimate ChatGPT ikoon"/>
 
 <h1 align="center">The Ultimate ChatGPT 🌟</h1>
 

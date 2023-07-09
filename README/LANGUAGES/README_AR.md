@@ -1,5 +1,5 @@
 <div align="center">
-<img src="../../docs/images/icon.png" alt="أيقونة The Ultimate ChatGPT" />
+<img src="./../../docs/images/icon.png" alt="أيقونة The Ultimate ChatGPT" />
 
 <h1 align="center">أتشات جي بي تي النهائي 🌟</h1>
 

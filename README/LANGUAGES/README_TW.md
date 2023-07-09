@@ -1,7 +1,5 @@
-感謝您對The Ultimate ChatGPT的興趣！以下是The Ultimate ChatGPT的簡介翻譯：
-
 <div align="center">
-<img src="./docs/images/icon.png" alt="The Ultimate ChatGPT 圖示"/>
+<img src="./../../docs/images/icon.png" alt="The Ultimate ChatGPT 圖示"/>
 
 <h1 align="center">The Ultimate ChatGPT 🌟</h1>
 

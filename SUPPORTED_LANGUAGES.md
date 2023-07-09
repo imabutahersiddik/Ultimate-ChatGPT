@@ -1,5 +1,5 @@
 <div align="center">
-<img src="../../docs/images/icon.svg" alt="icon"/>
+<img src="./../../docs/images/icon.svg" alt="icon"/>
 
 <h1 align="center">The Ultimate ChatGPT: Supported Languages</h1>
 

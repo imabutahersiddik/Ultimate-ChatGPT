@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./docs/images/icon.png" alt="Biểu tượng The Ultimate ChatGPT"/>
+<img src="./../../docs/images/icon.png" alt="Biểu tượng The Ultimate ChatGPT"/>
 
 <h1 align="center">The Ultimate ChatGPT 🌟</h1>
 
@@ -84,7 +84,7 @@ The Ultimate ChatGPT có sẵn dưới dạng ứng dụng web, cung cấp một
 
 [Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
 
-![cover](./docs/images/cover.png)
+![cover](./../../docs/images/cover.png)
 
 </div>
 
