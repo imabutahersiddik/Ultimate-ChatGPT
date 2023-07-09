@@ -8,7 +8,6 @@ import { getClientConfig } from "./config/client";
 export const metadata = {
   title: "The Ultimate ChatGPT",
   description: "Experience the Ultimate ChatGPT Chat Bot: Powered by GPT-3.5 Turbo AI, our cutting-edge virtual assistant revolutionizes your online interactions. Engage in captivating conversations, get instant answers, and access a wealth of knowledge. With unparalleled intelligence and lightning-fast response times, our Chat Bot is your go-to source for expert advice, innovative ideas, and friendly banter. Don't miss out on this incredible opportunity to explore the future of AI. Click now to unlock endless possibilities with our advanced ChatGPT Chat Bot!",
-  canonical = "https://chatgpt.kiask.xyz",
   viewport: {
     width: "device-width",
     initialScale: 1,
