@@ -22,6 +22,7 @@ import ph from "./ph";
 import pt from "./pt";
 import tl from "./tl";
 import du from "./du";
+import cz from "./cz";
 import { merge } from "../utils/merge";
 
 import type { LocaleType } from "./cn";
@@ -52,6 +53,7 @@ const ALL_LANGS = {
   pt,
   tl,
   du,
+  cz,
 };
 
 export type Lang = keyof typeof ALL_LANGS;
@@ -83,6 +85,7 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   pt: "Idioma",
   tl: "Tagalog",
   du: "Dutch",
+  cz: "Czech",
 };
 
 const LANG_KEY = "lang";
