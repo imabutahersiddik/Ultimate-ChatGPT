@@ -17,6 +17,7 @@ import bn from "./bn";
 import hi from "./hi";
 import hr from "./hr";
 import ur from "./ur";
+import pl from "./pl";
 import { merge } from "../utils/merge";
 
 import type { LocaleType } from "./cn";
@@ -42,6 +43,7 @@ const ALL_LANGS = {
   hi,
   hr,
   ur,
+  pl,
 };
 
 export type Lang = keyof typeof ALL_LANGS;
@@ -68,6 +70,7 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   hi: "भाषा",
   hr: "שפה",
   ur: "زبان",
+  pl: "Język",
 };
 
 const LANG_KEY = "lang";
