@@ -25,6 +25,7 @@ import du from "./du";
 import cz from "./cz";
 import gr from "./gr";
 import kz from "./kz";
+import id from "./id";
 import { merge } from "../utils/merge";
 
 import type { LocaleType } from "./cn";
@@ -58,6 +59,7 @@ const ALL_LANGS = {
   cz,
   gr,
   kz,
+  id,
 };
 
 export type Lang = keyof typeof ALL_LANGS;
@@ -92,6 +94,7 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   cz: "Czech",
   gr: "Γλώσσα",
   kz: "Қазақ",
+  id: "Bahasa",
 };
 
 const LANG_KEY = "lang";
@@ -100,7 +103,7 @@ const DEFAULT_LANG = "en";
 const fallbackLang = en;
 const targetLang = ALL_LANGS[getLang()] as LocaleType;
 
-// if target lang missing some fields, it will use fallback lang string
+
 merge(fallbackLang, targetLang);
 
 export default fallbackLang as LocaleType;

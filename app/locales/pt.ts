@@ -3,7 +3,7 @@ import { LocaleType } from "./index";
 
 // if you are adding a new translation, please use PartialLocaleType instead of LocaleType
 const pt: LocaleType = {
-  WIP: "Em breve...",
+  WIP: "Em breve....",
   Error: {
     Unauthorized:
       "Apoie o Ultimate ChatGPT no [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) ou através do Bkash (+880 1812-715289), Envie usando [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob), Número da carteira móvel: +880 1812-715289 para nos ajudar a melhorar e manter este poderoso Ultimate ChatGPT.",
@@ -132,7 +132,7 @@ const pt: LocaleType = {
       },
     },
     Lang: {
-      Name: "Idioma", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
+      Name: "Idioma",
       All: "Todos os Idiomas",
     },
     Avatar: "Avatar",
