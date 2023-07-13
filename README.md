@@ -88,6 +88,30 @@ The Ultimate ChatGPT is accessible through the web app, providing an intuitive a
 
 </div>
 
+## 🔑 Installation Guide ##
+
+To deploy your project from a Vercel deployment link, you can follow these steps:
+
+* Sign up for an account on Vercel at https://vercel.com/signup if you haven't already.
+
+* Log in to your Vercel account.
+
+* Once logged in, click on the "Import Project" button on the Vercel dashboard.
+
+* In the "Import Git Repository" section, paste your GitHub repository's URL (e.g., `https://github.com/imabutahersiddik/Ultimate-ChatGPT.git`) and click on the "Continue" button.
+
+* Configure the project settings as needed, such as the name, framework, and build settings. Make sure to set the appropriate build command and output directory for your project.
+
+* After configuring the project settings, click on the "Deploy" button to start the deployment process.
+
+* Vercel will clone your repository, build the project, and deploy it to a unique URL provided by Vercel.
+
+* Once the deployment is finished, you will receive the deployment link. You can find it on the Vercel dashboard or in the deployment logs.
+
+* You can now use this deployment link to access and share your deployed project.
+
+** After installation set your OpenAI Api key on settings of your deployed app.
+
 ## ❓ Frequently Asked Questions❓
 
 <details>
