@@ -27,6 +27,7 @@ import gr from "./gr";
 import kz from "./kz";
 import id from "./id";
 import zh from "./zh";
+import tam from "./tam";
 import { merge } from "../utils/merge";
 
 import type { LocaleType } from "./cn";
@@ -39,6 +40,7 @@ const ALL_LANGS = {
   jp,
   ko,
   zh,
+  tam,
   fr,
   es,
   it,
@@ -98,6 +100,7 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   gr: "Γλώσσα",
   kz: "Қазақ",
   id: "Bahasa",
+  tam: "Tamazight",
 };
 
 const LANG_KEY = "lang";
