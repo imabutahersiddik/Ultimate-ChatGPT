@@ -26,6 +26,7 @@ import cz from "./cz";
 import gr from "./gr";
 import kz from "./kz";
 import id from "./id";
+import zh from "./zh";
 import { merge } from "../utils/merge";
 
 import type { LocaleType } from "./cn";
@@ -37,6 +38,7 @@ const ALL_LANGS = {
   tw,
   jp,
   ko,
+  zh,
   fr,
   es,
   it,
@@ -72,6 +74,7 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   tw: "繁體中文",
   jp: "日本語",
   ko: "한국어",
+  zh: "語言",
   fr: "Français",
   es: "Español",
   it: "Italiano",
