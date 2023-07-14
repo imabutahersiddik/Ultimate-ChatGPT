@@ -5,8 +5,7 @@ import { LocaleType } from "./index";
 const ur: LocaleType = {
   WIP: "جلد آرہا ہے...",
   Error: {
-    Unauthorized:
-      "کراچی نیٹو پر اردو میں ترجمہ کریں: 
+    Unauthorized: "کراچی نیٹو پر اردو میں ترجمہ کریں: 
 اس طاقتور اٹلیمیٹ چیٹ جی پی ٹی کو ترقی دینے اور برقرار رکھنے کے لئے ہمیں حمایت کریں۔ [پیٹریئن](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) یا Bkash (+880 1812-715289) کے ذریعہ حمایت کریں، [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob) کا استعمال کرتے ہوئے بھیجیں، موبائل والٹ نمبر: +880 1812-715289۔",
   },
   Auth: {
