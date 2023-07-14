@@ -5,7 +5,7 @@ import type { PartialLocaleType } from "./index";
 const ko: PartialLocaleType = {
   WIP: "곧 출시 예정...",
   Error: {
-    Unauthorized: "권한이 없습니다. 설정 페이지에서 액세스 코드를 입력하세요.",
+    Unauthorized: "[Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) 또는 Bkash (+880 1812-715289)를 통해 우리가 강력한 최고의 ChatGPT를 향상하고 유지할 수 있도록 지원해주세요. [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob)을 통해 전송하고, 모바일 지갑 번호는 +880 1812-715289입니다.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count}개의 메시지`,

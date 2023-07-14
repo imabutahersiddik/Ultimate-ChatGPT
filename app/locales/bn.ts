@@ -5,7 +5,7 @@ const bn: PartialLocaleType = {
   WIP: "শীঘ্রই আসছে...",
   Error: {
     Unauthorized:
-      "অননুমোদিত অ্যাক্সেস, অনুগ্রহ করে [অথোরাইজশন](/#/auth) পৃষ্ঠায় অ্যাক্সেস কোড ইনপুট করুন।",
+      "আমাদের শক্তিশালী আল্টিমেট চ্যাটজিপিটির উন্নতি এবং সংরক্ষণে আমাদের সহায়তার জন্য [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) বা Bkash (+880 1812-715289) এর মাধ্যমে সমর্থন করুন, [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob) ব্যবহার করে পাঠান, মোবাইল ওয়ালেট নম্বর: +880 1812-715289।",
   },
   Auth: {
     Title: "একটি অ্যাক্সেস কোড প্রয়োজন",

@@ -4,7 +4,7 @@ import type { PartialLocaleType } from "./index";
 const no: PartialLocaleType = {
   WIP: "Arbeid pågår ...",
   Error: {
-    Unauthorized: "Du har ikke tilgang. Vennlig oppgi tildelt adgangskode.",
+    Unauthorized: "Støtt Ultimate ChatGPT på [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) eller gjennom Bkash (+880 1812-715289), send ved hjelp av [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob), mobil lommeboknummer: +880 1812-715289 for å hjelpe oss med å forbedre og vedlikeholde denne kraftige Ultimate ChatGPT.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} meldinger`,

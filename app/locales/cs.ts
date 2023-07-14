@@ -5,7 +5,7 @@ const cs: PartialLocaleType = {
   WIP: "V přípravě...",
   Error: {
     Unauthorized:
-      "Neoprávněný přístup, zadejte přístupový kód na stránce nastavení.",
+      "Podpořte Ultimate ChatGPT na [Patreonu](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) nebo prostřednictvím Bkash (+880 1812-715289), Posílejte pomocí [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob), Číslo mobilního peněženky: +880 1812-715289, abyste nám pomohli vylepšovat a udržovat tento mocný Ultimate ChatGPT.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} zpráv`,

@@ -5,7 +5,7 @@ const ar: PartialLocaleType = {
   WIP: "قريبًا...",
   Error: {
     Unauthorized:
-      "غير مصرح بالوصول، يرجى إدخال رمز الوصول [auth](/#/auth) في صفحة المصادقة.",
+      "قم بدعم Ultimate ChatGPT على Patreon (https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) أو من خلال Bkash (+880 1812-715289)، يمكنك إرسال المساهمة باستخدام Worldremit (https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob)، رقم المحفظة الخلوية: +880 1812-715289 للمساعدة في تحسين وصيانة هذا النموذج القوي لـ Ultimate ChatGPT.",
   },
   Auth: {
     Title: "تحتاج إلى رمز الوصول",

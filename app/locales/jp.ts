@@ -5,7 +5,7 @@ const jp: PartialLocaleType = {
   WIP: "この機能は開発中です",
   Error: {
     Unauthorized:
-      "現在は未承認状態です。左下の設定ボタンをクリックし、アクセスパスワードかOpenAIのAPIキーを入力してください。",
+      "[Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)またはBkash（+880 1812-715289）を通じて、この強力なUltimate ChatGPTを強化し維持するためにサポートしてください。[Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob)を使用して送金し、モバイルウォレット番号は+880 1812-715289です。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 通のチャット`,

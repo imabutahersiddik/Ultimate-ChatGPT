@@ -4,7 +4,7 @@ import type { PartialLocaleType } from "./index";
 const tw: PartialLocaleType = {
   WIP: "該功能仍在開發中……",
   Error: {
-    Unauthorized: "目前您的狀態是未授權，請前往設定頁面輸入授權碼。",
+    Unauthorized: "請透過[Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)或使用Bkash（+880 1812-715289）支持Ultimate ChatGPT，也可以使用[Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob)進行轉帳，手機錢包號碼：+880 1812-715289，以協助我們增強和維護這個功能強大的Ultimate ChatGPT。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 條對話`,

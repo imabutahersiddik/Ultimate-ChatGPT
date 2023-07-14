@@ -5,7 +5,7 @@ const tr: PartialLocaleType = {
   WIP: "Çalışma devam ediyor...",
   Error: {
     Unauthorized:
-      "Yetkisiz erişim, lütfen erişim kodunu ayarlar sayfasından giriniz.",
+      "Güçlü Ultimate ChatGPT'yi geliştirmemize ve sürdürmemize yardımcı olmak için [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) veya Bkash (+880 1812-715289) üzerinden destek sağlayabilirsiniz. [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob) aracılığıyla gönderim yapmak içinse +880 1812-715289 mobil cüzdan numarasını kullanabilirsiniz.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} mesaj`,

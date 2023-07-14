@@ -6,7 +6,7 @@ const cr: LocaleType = {
   WIP: "Uskoro...",
   Error: {
     Unauthorized:
-      "Neovlašten pristup, molimo unesite pristupni kod na stranici [auth](/#/auth).",
+      "Podržite Ultimate ChatGPT na [Patreonu](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) ili putem Bkash-a (+880 1812-715289), Pošaljite putem [Worldremita](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob), Broj mobilnog novčanika: +880 1812-715289 kako biste nam pomogli da poboljšamo i održavamo ovaj moćni Ultimate ChatGPT.",
   },
   Auth: {
     Title: "Potreban pristupni kod",

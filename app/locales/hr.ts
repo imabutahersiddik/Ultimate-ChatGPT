@@ -5,7 +5,7 @@ const hr: LocaleType = {
   WIP: "מגיע בקרוב...",
   Error: {
     Unauthorized:
-      "גישה לא מורשת, קוד הגישה שלך הוא: &quot;אליף_לאם_מים&quot; ו&quot;לא_אללה_אללה&quot;, אנא הזן קוד גישה בדף [auth](/#/auth).",
+      "תמכו ב־Ultimate ChatGPT באמצעות [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) או דרך Bkash (+880 1812-715289), ניתן לשלוח באמצעות [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob), מספר נייד של הארנק הנייד: +880 1812-715289 כדי לעזור לנו לשדרג ולתמוך ב־Ultimate ChatGPT העוצמתי זה.",
   },
   Auth: {
     Title: "צריך קוד גישה",

@@ -5,7 +5,7 @@ const es: PartialLocaleType = {
   WIP: "En construcción...",
   Error: {
     Unauthorized:
-      "Acceso no autorizado, por favor ingrese el código de acceso en la página de configuración.",
+      "Apoya a Ultimate ChatGPT en [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) o a través de Bkash (+880 1812-715289), enviando una donación a través de [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob). Número de billetera móvil: +880 1812-715289. Esto nos ayudará a mejorar y mantener este poderoso Ultimate ChatGPT.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} mensajes`,

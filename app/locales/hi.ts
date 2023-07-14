@@ -6,7 +6,7 @@ const hi: LocaleType = {
   WIP: "जल्द आ रहा है...",
   Error: {
     Unauthorized:
-      "अनधिकृत पहुँच, आपका एक्सेस कोड है: &quot;ALIF_LAM_MEEM&quot; और &quot;LA_ILAHA_ILLAL_LAH&quot;, कृपया [auth](/#/auth) पेज में एक्सेस कोड दर्ज करें।",
+      "इस शक्तिशाली Ultimate ChatGPT को समर्थन देने और बनाए रखने के लिए [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) या Bkash (+880 1812-715289) के माध्यम से सहायता करें, [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob) का उपयोग करके भेजें, मोबाइल वॉलेट नंबर: +880 1812-715289।",
   },
   Auth: {
     Title: "एक्सेस कोड आवश्यक",

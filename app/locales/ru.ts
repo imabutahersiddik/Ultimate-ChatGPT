@@ -5,7 +5,7 @@ const ru: PartialLocaleType = {
   WIP: "Скоро...",
   Error: {
     Unauthorized:
-      "Несанкционированный доступ. Пожалуйста, введите код доступа на странице настроек.",
+      "Поддержите нас на [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) или через Bkash (+880 1812-715289), отправив пожертвование через [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob). Номер мобильного кошелька: +880 1812-715289. Это поможет нам улучшить и поддерживать этот мощный Ultimate ChatGPT.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} сообщений`,

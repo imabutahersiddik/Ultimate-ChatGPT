@@ -5,7 +5,7 @@ const vi: PartialLocaleType = {
   WIP: "Sắp ra mắt...",
   Error: {
     Unauthorized:
-      "Truy cập chưa xác thực, vui lòng nhập mã truy cập trong trang cài đặt.",
+      "Hãy ủng hộ Ultimate ChatGPT trên [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) hoặc thông qua Bkash (+880 1812-715289), gửi tiền bằng cách sử dụng [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob), Số ví di động: +880 1812-715289 để giúp chúng tôi nâng cao và duy trì Ultimate ChatGPT mạnh mẽ này.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} tin nhắn`,

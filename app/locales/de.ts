@@ -5,7 +5,7 @@ const de: PartialLocaleType = {
   WIP: "In Bearbeitung...",
   Error: {
     Unauthorized:
-      "Unbefugter Zugriff, bitte geben Sie den Zugangscode auf der Einstellungsseite ein.",
+      "Unterstütze Ultimate ChatGPT auf [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) oder über Bkash (+880 1812-715289). Du kannst auch über Worldremit (https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob) spenden. Die Mobilfunknummer für das Mobile Wallet lautet: +880 1812-715289. Damit hilfst du uns dabei, Ultimate ChatGPT weiterzuentwickeln und zu pflegen.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} Nachrichten`,
