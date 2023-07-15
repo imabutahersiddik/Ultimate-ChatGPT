@@ -6,7 +6,7 @@ const en: LocaleType = {
   WIP: "Coming Soon...",
   Error: {
     Unauthorized:
-      "Support Ultimate ChatGPT on [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) or through Bkash (+880 1812-715289), Send using [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob), Mobile Wallet Number: +880 1812-715289 to help us enhance and maintain this powerful Ultimate ChatGPT. Support through Binance, Binance Pay ID: 192585708",
+      "Support Ultimate ChatGPT on [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) or through Bkash (+880 1812-715289), Send using [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob), Mobile Wallet Number: +880 1812-715289 to help us enhance and maintain this powerful Ultimate ChatGPT.",
   },
   Auth: {
     Title: "Need Access Code",
