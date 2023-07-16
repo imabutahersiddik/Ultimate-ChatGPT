@@ -69,9 +69,6 @@ export default function RootLayout({
         <meta name="twitter:player:height" content="533" />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
-        <script async src="https://www.kiask.xyz/ad-anchor.js" />
-        <script async src="https://www.kiask.xyz/ad-inst.js" />
-        <script async src="https://www.kiask.xyz/ad-push.js" />
       </head>
       <body>{children}</body>
     </html>
