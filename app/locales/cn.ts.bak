@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "支持我们通过[Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)或通过Bkash（+880 1812-715289）进行捐赠，使用[Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob)发送，移动钱包号码：+880 1812-715289，以帮助我们增强和维护这个强大的Ultimate ChatGPT。访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/auth)页填入你自己的 OpenAI API Key。",
+      "支持我们通过[Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)或通过Bkash（+880 1812-715289）进行捐赠，使用[Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob)发送，移动钱包号码：+880 1812-715289，以帮助我们增强和维护这个强大的Ultimate ChatGPT。",
   },
   Auth: {
     Title: "需要密码",
