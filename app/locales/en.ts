@@ -214,8 +214,8 @@ const en: LocaleType = {
     },
     AccessCode: {
   Title: "Access Code",
-  SubTitle: "Obtain your API key or access code from the following [URL](https://api.chatanywhere.cn/v1/oauth/free/github/render).",
-  Placeholder: "Paste Access Code or API Key"
+  SubTitle: "Obtain your API key or access code from the following URL: {link}",
+  Placeholder: "Paste Your Access Code or API Key"
     },
     Endpoint: {
       Title: "Endpoint",

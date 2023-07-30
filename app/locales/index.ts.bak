@@ -106,11 +106,6 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
 const LANG_KEY = "lang";
 const DEFAULT_LANG = "en";
 
-const subtitle = i18n.t('AccessCode.SubTitle', {
-  link: '<a href="https://api.chatanywhere.cn/v1/oauth/free/github/render" target="_blank" rel="noopener noreferrer">Get API Key</a>'
-});
-
-
 const fallbackLang = en;
 const targetLang = ALL_LANGS[getLang()] as LocaleType;
 
