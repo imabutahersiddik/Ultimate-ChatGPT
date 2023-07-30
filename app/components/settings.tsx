@@ -49,10 +49,6 @@ import { Avatar, AvatarPicker } from "./emoji";
 import { getClientConfig } from "../config/client";
 import { useSyncStore } from "../store/sync";
 
-const subtitle = i18n.t('AccessCode.SubTitle', {
-  link: '<a href="https://api.chatanywhere.cn/v1/oauth/free/github/render" target="_blank" rel="noopener noreferrer">Get API Key</a>'
-});
-
 function EditPromptModal(props: { id: number; onClose: () => void }) {
   const promptStore = usePromptStore();
   const prompt = promptStore.get(props.id);
