@@ -213,9 +213,9 @@ const en: LocaleType = {
       NoAccess: "Enter API Key to check balance",
     },
     AccessCode: {
-      Title: "Access Code",
-      SubTitle: "Access control enabled",
-      Placeholder: "Need Access Code",
+  Title: "Access Code",
+  SubTitle: "{`Obtain your API key or access code from the following URL: <a href=\"https://api.chatanywhere.cn/v1/oauth/free/github/render\" target=\"_blank\" rel=\"noopener noreferrer\">Get API Key</a>`}",
+  Placeholder: "Need Access Code"
     },
     Endpoint: {
       Title: "Endpoint",

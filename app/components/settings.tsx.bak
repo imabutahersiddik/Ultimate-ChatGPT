@@ -242,7 +242,7 @@ function SyncItems() {
   const syncStore = useSyncStore();
   const webdav = syncStore.webDavConfig;
 
-  // not ready: https://github.com/imabutahersiddik/Ultimate-ChatGPT/issues/
+  // not ready: https://github.com/imabutahersiddik/Ultimate-ChatGPT/issues/920#issuecomment-1609866332
   return null;
 
   return (
