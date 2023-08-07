@@ -65,7 +65,7 @@ if (mode !== "export") {
       },
       {
         source: "/kiaskshare",
-        destination: "https://share.kiask.xyz/api/conversations",
+        destination: "https://www.kiask.xyz/api/conversations",
       },
     ];
 
