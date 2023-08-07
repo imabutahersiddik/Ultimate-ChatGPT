@@ -28,6 +28,7 @@ import kz from "./kz";
 import id from "./id";
 import zh from "./zh";
 import tam from "./tam";
+import am from "./am";
 import { merge } from "../utils/merge";
 
 import type { LocaleType } from "./cn";
@@ -64,6 +65,7 @@ const ALL_LANGS = {
   gr,
   kz,
   id,
+  am,
 };
 
 export type Lang = keyof typeof ALL_LANGS;
@@ -101,6 +103,7 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   kz: "Қазақ",
   id: "Bahasa",
   tam: "Tamazight",
+  am: "Armenian",
 };
 
 const LANG_KEY = "lang";
