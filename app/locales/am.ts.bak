@@ -132,7 +132,7 @@ const en: LocaleType = {
       },
     },
     Lang: {
-      Name: "Լեզու", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
+      Name: "Armenian", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
       All: "Բոլոր Լեզուները",
     },
     Avatar: "Անձնական նկար",
