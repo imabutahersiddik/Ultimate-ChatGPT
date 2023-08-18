@@ -128,4 +128,8 @@ export const DEFAULT_MODELS = [
     name: "chatglm", // chatglm-6b
     available: false,
   },
+  {
+    name: "text-bison-001", // text-bison-001
+    available: true,
+  },
 ] as const;
