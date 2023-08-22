@@ -110,6 +110,26 @@ To deploy your project from a Vercel deployment link, you can follow these steps
 
 * You can now use this deployment link to access and share your deployed project.
 
+## 💻 Local Installation Guide ##
+ 
+To get started with this project, you can clone this repository and launch the ui in a web server. Make sure you have Nodejs, yarn installed on your system.
+
+First, clone the repository:
+
+```
+git clone https://github.com/imabutahersiddik/ultimate-chatgpt.git
+```
+
+Then, navigate to the directory and start a local web server:
+
+```
+cd ultimate-chatgpt
+yarn install
+yarn dev
+```
+
+Visit `http://localhost/` in your web browser to use the ui.
+
 ** After installation set your OpenAI Api key on settings of your deployed app.
 
 ## ❓ Frequently Asked Questions❓
