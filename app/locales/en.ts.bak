@@ -247,7 +247,10 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello: "Get 5 GB free web hosting from Decent Realized Web.
+Free Hosting: https://decentrealizedweb.xyz/free-hosting
+Supports: Html, Php, Postgress Sql, MySQL, FTP, File manager. 
+(Promotion)",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
