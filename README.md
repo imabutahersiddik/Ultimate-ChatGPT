@@ -110,6 +110,8 @@ To deploy your project from a Vercel deployment link, you can follow these steps
 
 * You can now use this deployment link to access and share your deployed project.
 
+** After installation set your OpenAI Api key on settings of your deployed app.
+
 ## 💻 Local Installation Guide ##
  
 To get started with this project, you can clone this repository and launch the ui in a web server. Make sure you have Nodejs, yarn installed on your system.
