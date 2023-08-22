@@ -140,6 +140,26 @@ Visit `http://localhost/` in your web browser to use the ui.
 
 ** After installation set your OpenAI Api key on settings of your deployed app.
 
+
+
+## Promotion
+### Free Web Hosting from Decent Realized Web
+
+Decent Realized Web is offering 5 GB of free web hosting for a limited time. You can sign up for this promotion at [https://decentrealizedweb.xyz/free-hosting](https://decentrealizedweb.xyz/free-hosting).
+
+#### Supported Technologies
+
+The free hosting supports the following technologies:
+
+- HTML
+- PHP
+- PostgreSQL
+- MySQL
+- FTP
+- File Manager
+
+Take advantage of this promotion while it lasts!
+
 ## ❓ Frequently Asked Questions❓
 
 <details>
@@ -191,24 +211,6 @@ The Ultimate ChatGPT is available as a web app, and you can also access the GitH
 <summary>Is The Ultimate ChatGPT constantly evolving?</summary>
 Yes, The Ultimate ChatGPT is constantly evolving with updates and improvements, and it has an active community of contributors.
 </details>
-
-## Promotion
-### Free Web Hosting from Decent Realized Web
-
-Decent Realized Web is offering 5 GB of free web hosting for a limited time. You can sign up for this promotion at [https://decentrealizedweb.xyz/free-hosting](https://decentrealizedweb.xyz/free-hosting).
-
-#### Supported Technologies
-
-The free hosting supports the following technologies:
-
-- HTML
-- PHP
-- PostgreSQL
-- MySQL
-- FTP
-- File Manager
-
-Take advantage of this promotion while it lasts!
 
 ## Contributors
 ### Abu Taher Siddik
