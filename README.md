@@ -112,6 +112,12 @@ To deploy your project from a Vercel deployment link, you can follow these steps
 
 ** After installation set your OpenAI Api key on settings of your deployed app.
 
+### Deploy on Vercel
+
+You can deploy your own "Ultimate ChatGPT" on vercel for free in few clicks.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/imabutahersiddik/ultimate-chatgpt)
+
 ## 💻 Local Installation Guide ##
  
 To get started with this project, you can clone this repository and launch the ui in a web server. Make sure you have Nodejs, yarn installed on your system.
