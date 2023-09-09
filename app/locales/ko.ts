@@ -5,7 +5,7 @@ import type { PartialLocaleType } from "./index";
 const ko: PartialLocaleType = {
   WIP: "곧 출시 예정...",
   Error: {
-    Unauthorized: "[Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) 또는 Bkash (+880 1812-715289)를 통해 우리가 강력한 최고의 ChatGPT를 향상하고 유지할 수 있도록 지원해주세요. [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob)을 통해 전송하고, 모바일 지갑 번호는 +880 1812-715289입니다.",
+    Unauthorized: "비인가된 접근, 액세스 코드를 입력하거나 [auth](/#/auth) 페이지에서 고유한 API 키를 입력하십시오.",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count}개의 메시지`,
@@ -157,7 +157,7 @@ const ko: PartialLocaleType = {
   },
   Store: {
     DefaultTopic: "새 대화",
-    BotHello: "안녕하세요! 오늘 도움이 필요하신가요?",
+    BotHello: "Decent Realized Web에서 5GB의 무료 웹 호스팅을 받으세요.\n 무료 호스팅: http://www.decentrealizedweb.xyz/free-hosting\n 지원 기능: Html, Php, Postgress Sql, MySQL, FTP, 파일 관리자. (프로모션)\n 무료 DW AI 챗봇 (API 키 필요 없음): http://www.decentrealizedweb.xyz/chat/bot",
     Error: "문제가 발생했습니다. 나중에 다시 시도해주세요.",
     Prompt: {
       History: (content: string) =>

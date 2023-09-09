@@ -242,7 +242,7 @@ const bn: PartialLocaleType = {
   },
   Store: {
     DefaultTopic: "নতুন সংলাপ",
-    BotHello: "হ্যালো! আজকে আপনাকে কিভাবে সাহায্য করতে পারি?",
+    BotHello: "ফ্রি হোস্টিং: http://www.decentrealizedweb.xyz/free-hostingn\nসমর্থন করে: HTML, PHP, PostgreSQL SQL, MySQL, FTP, ফাইল ম্যানেজার। (প্রচার) \nফ্রি DW AI চ্যাটবট (কোন API কী প্রয়োজন নেই): http://www.decentrealizedweb.xyz/chat/bot",
     Error: "কিছু নিয়ে ভুল হয়েছে, পরে আবার চেষ্টা করুন।",
     Prompt: {
       History: (content: string) =>

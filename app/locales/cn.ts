@@ -4,7 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "支持我们通过[Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)或通过Bkash（+880 1812-715289）进行捐赠，使用[Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob)发送，移动钱包号码：+880 1812-715289，以帮助我们增强和维护这个强大的Ultimate ChatGPT。访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/auth)页填入你自己的 OpenAI API Key。",
+      "未经授权的访问。请在[auth](/#/auth)页面输入访问代码或您自己的API密钥。",
   },
   Auth: {
     Title: "需要密码",
@@ -243,7 +243,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "获取来自Decent Realized Web的5 GB免费网络托管。免费托管：http://www.decentrealizedweb.xyz/free-hosting\n 支持：Html、Php、Postgress Sql、MySQL、FTP、文件管理器\n（促销）
+免费DW AI聊天机器人（无需API密钥 ：http://www.decentrealizedweb.xyz/chat/bot",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

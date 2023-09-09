@@ -5,7 +5,7 @@ const ar: PartialLocaleType = {
   WIP: "قريبًا...",
   Error: {
     Unauthorized:
-      "قم بدعم Ultimate ChatGPT على Patreon (https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) أو من خلال Bkash (+880 1812-715289)، يمكنك إرسال المساهمة باستخدام Worldremit (https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob)، رقم المحفظة الخلوية: +880 1812-715289 للمساعدة في تحسين وصيانة هذا النموذج القوي لـ Ultimate ChatGPT.",
+      "الوصول غير المصرح به، يرجى إدخال رمز الوصول أو مفتاح API الخاص بك في الصفحة [auth](/#/auth).",
   },
   Auth: {
     Title: "تحتاج إلى رمز الوصول",
@@ -204,7 +204,7 @@ ${builtin} مدمجة، ${custom} تم تعريفها من قبل المستخد
   },
   Store: {
     DefaultTopic: "محادثة جديدة",
-    BotHello: "مرحبًا! كيف يمكنني مساعدتك اليوم؟",
+    BotHello: "احصل على استضافة ويب مجانية بسعة 5 جيجابايت من Decent Realized Web.\n الاستضافة المجانية: http://www.decentrealizedweb.xyz/free-hosting\n تدعم: Html، Php، Postgress Sql، MySQL، FTP، مدير الملفات. (عرض ترويجي)\n DW AI ChatBot مجاني (بدون حاجة إلى مفتاح API): http://www.decentrealizedweb.xyz/chat/bot",
     Error: "حدث خطأ ما، يرجى المحاولة مرة أخرى في وقت لاحق.",
     Prompt: {
       History: (content: string) => "هذا ملخص لسجل الدردشة كمراجعة: " + content,
