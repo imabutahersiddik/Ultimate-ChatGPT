@@ -5,7 +5,7 @@ const jp: PartialLocaleType = {
   WIP: "この機能は開発中です",
   Error: {
     Unauthorized:
-      "[Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)またはBkash（+880 1812-715289）を通じて、この強力なUltimate ChatGPTを強化し維持するためにサポートしてください。[Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob)を使用して送金し、モバイルウォレット番号は+880 1812-715289です。",
+      "未承認のアクセス、アクセスコードまたは独自のAPIキーを[認証](/#/auth)ページで入力してください。",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 通のチャット`,
@@ -177,7 +177,7 @@ const jp: PartialLocaleType = {
   },
   Store: {
     DefaultTopic: "新しいチャット",
-    BotHello: "何かお手伝いできることはありますか",
+    BotHello: "Eartherのウェブサイトで、ポストアースの結果に魅入られてください。https://earther.vercel.app で、生態学的な変化、人間の生存に関する課題、環境危機によって変わった世界での倫理的なジレンマを探求してください。会話に参加し、地球の持続可能な未来を想像してみましょう。",
     Error: "エラーが発生しました。しばらくしてからやり直してください。",
     Prompt: {
       History: (content: string) =>

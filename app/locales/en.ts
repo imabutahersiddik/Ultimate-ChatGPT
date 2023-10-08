@@ -247,7 +247,7 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Get 5 GB free web hosting from Decent Realized Web.\nFree Hosting: http://www.decentrealizedweb.xyz/free-hosting\nSupports: Html, Php, Postgress Sql, MySQL, FTP, File manager. (Promotion)\nFree DW AI ChatBot (No API Key Required): http://www.decentrealizedweb.xyz/chat/bot",
+    BotHello: "Dive into the fascinating world of post-Earth consequences on Earther at https://earther.vercel.app\nExplore ecological changes, man survival challenges, and ethical dilemmas in a world altered by environmental crises.\nJoin the conversation and envision a sustainable future for our planet.",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>

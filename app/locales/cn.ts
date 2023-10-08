@@ -243,7 +243,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "获取来自Decent Realized Web的5 GB免费网络托管。免费托管：http://www.decentrealizedweb.xyz/free-hosting\n 支持：Html、Php、Postgress Sql、MySQL、FTP、文件管理器（促销）\n免费DW AI聊天机器人（无需API密钥 ：http://www.decentrealizedweb.xyz/chat/bot",
+    BotHello: "在 https://earther.vercel.app 上深入探讨后地球情景的迷人世界。探索生態變化、人類生存挑戰以及環境危機改變的倫理困境。加入對話，展望我們星球的可持续未來。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

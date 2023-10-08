@@ -5,7 +5,7 @@ const ru: PartialLocaleType = {
   WIP: "Скоро...",
   Error: {
     Unauthorized:
-      "Поддержите нас на [Patreon](https://patreon.com/KiasK?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link) или через Bkash (+880 1812-715289), отправив пожертвование через [Worldremit](https://www.worldremit.com/en?amountfrom=10.00&selectfrom=us&currencyfrom=usd&selectto=bd&currencyto=bdt&transfer=mob). Номер мобильного кошелька: +880 1812-715289. Это поможет нам улучшить и поддерживать этот мощный Ultimate ChatGPT.",
+      "Несанкционированный доступ, пожалуйста, введите код доступа или свой собственный API-ключ на странице [auth](/#/auth).",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} сообщений`,
@@ -161,7 +161,7 @@ const ru: PartialLocaleType = {
   },
   Store: {
     DefaultTopic: "Новый разговор",
-    BotHello: "Здравствуйте! Как я могу вам помочь сегодня?",
+    BotHello: "Погрузитесь в увлекательный мир последствий после Земли на Earther по адресу https://earther.vercel.app. Исследуйте экологические изменения, вызовы выживания человека и этические дилеммы в мире, измененном экологическими кризисами. Присоединяйтесь к разговору и представьте устойчивое будущее для нашей планеты.",
     Error: "Что-то пошло не так. Пожалуйста, попробуйте еще раз позже.",
     Prompt: {
       History: (content: string) =>
